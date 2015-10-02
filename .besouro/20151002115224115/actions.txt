@@ -1,0 +1,8 @@
+FileOpenedAction 1443775944466 TestSudokuVerifier.java 202 1 1 0
+RefactoringAction 1443776042991 TestSudokuVerifier.java RENAME test()=>void testTe() METHOD
+RefactoringAction 1443776043640 TestSudokuVerifier.java RENAME testTe()=>void testT() METHOD
+RefactoringAction 1443776046102 TestSudokuVerifier.java RENAME testT()=>void testSt() METHOD
+RefactoringAction 1443776049409 TestSudokuVerifier.java RENAME testSt()=>void testStringTooLong() METHOD
+RefactoringAction 1443776051321 TestSudokuVerifier.java RENAME testStringTooLong()=>void testStringTooLongException() METHOD
+FileOpenedAction 1443776285127 SudokuVerifier.java 189 1 1 0
+EditAction 1443776396018 TestSudokuVerifier.java 394 1 3 0
