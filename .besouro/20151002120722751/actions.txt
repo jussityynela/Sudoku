@@ -50,3 +50,6 @@ RefactoringAction 1443777198334 TestSudokuVerifier.java RENAME testStringTooShor
 RefactoringAction 1443777198338 TestSudokuVerifier.java RENAME testStringTooShortException()/2=>void testStringEmptyException() METHOD
 CompilationAction 1443777198436 TestSudokuVerifier.java
 EditAction 1443777206932 TestSudokuVerifier.java 779 3 6 0
+UnitTestCaseAction 1443777210314 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777210315 TestSudokuVerifier FAIL
+EditAction 1443777223722 SudokuVerifier.java 510 1 4 0
