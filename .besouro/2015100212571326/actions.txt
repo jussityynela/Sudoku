@@ -126,3 +126,5 @@ CompilationAction 1443780581023 SudokuVerifier.java
 CompilationAction 1443780581024 SudokuVerifier.java
 CompilationAction 1443780588158 SudokuVerifier.java
 EditAction 1443780617586 SudokuVerifier.java 1355 2 10 0
+RefactoringAction 1443780867775 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1443781075233 SudokuVerifier.java ADD import java.util.HashSet IMPORT
