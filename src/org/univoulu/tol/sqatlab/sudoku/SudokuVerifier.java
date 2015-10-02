@@ -8,6 +8,9 @@ import java.util.Set;
 
 public class SudokuVerifier {
 
+	private static final int columnCount = 9;
+	private static final int rowCount = 9;
+	private static final int numberCount = columnCount * rowCount ;
 	public int verify(String candidateSolution) {
 		// returns 1 if the candidate solution is correct
 		if( candidateSolution.isEmpty() )
@@ -19,14 +22,14 @@ public class SudokuVerifier {
 		
 		if(candidateSolution.contains(new String("-")))
 			return -1;
-		//First split the string to be in rows steps		
-		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
-		int[] numbers = new int[9];
+		//Check if Column has duplicate numbers		
+		List<String> sudokuCandidateRows = splitEqually(candidateSolution, rowCount);
+		int[] numbers = new int[rowCount];
 		if(hasDuplicatesInRow(sudokuCandidateRows, numbers) )
 			return -3;
-		//First split the string to be in rows steps		
-		List<String> sudokuCandidateColumns = splitStringToColumns(candidateSolution, 9);
-		int[] numbersInColumn = new int[9];
+		//Check if Column has duplicate numbers	
+		List<String> sudokuCandidateColumns = splitStringToColumns(candidateSolution, columnCount);
+		int[] numbersInColumn = new int[columnCount];
 		if(hasDuplicatesInRow(sudokuCandidateColumns, numbersInColumn) )
 			return -4;
 			
@@ -35,38 +38,35 @@ public class SudokuVerifier {
 		return -5;
 	}
 
-	private List<String> splitStringToColumns(String candidateSolution, int i) {
+	private List<String> splitStringToColumns(String candidateSolution, int columncount) {
+		List<String> sudokuCandidateRows = splitEqually(candidateSolution, columncount);
 		List<String> sudokuCandidateNumbers = splitEqually(candidateSolution, 1);
-		/**for(String s : sudokuCandidateNumbers)	{
-			System.out.print(s);
-			System.out.print("\n");
-		}*/
-		
-		List<String> sudokuCanditateColumns = new ArrayList<String>(9);
+		List<String> sudokuCanditateColumns = new ArrayList<String>(columncount);
 		for(int k=0; k<9; ++k){
 			sudokuCanditateColumns.add("");
 		}
-			
+		/**for(String s : sudokuCanditateColumns)	{
+			System.out.print(s);
+			System.out.print("1\n");
+		}*/
 		/**int[] numbers = new int[81];
 		int counter = 0;
 		for(String s : sudokuCandidateNumbers)	{
 			numbers[counter] = Integer.parseInt(s);	
 			++counter;
 		}*/
-		//first column
-		//get 0,9, 18,...
 		String firstColumn = "";
-		for(String s:sudokuCanditateColumns ){
-			for(int j=1; j<81; j += 9){
-				sudokuCanditateColumns.set(0, sudokuCanditateColumns.get(0).concat(sudokuCandidateNumbers.get(j)));
+		int counter = 0;
+		for(String s : sudokuCanditateColumns ){
+			for(String r:sudokuCandidateRows){
+				sudokuCanditateColumns.set(counter,  sudokuCanditateColumns.get(counter).concat(r.substring(counter,counter+1) ) );
 			}
+			counter++;
 		}
-		String secondColumn = "";
-		for(int j=1; j<81; j += 9){
-			secondColumn = secondColumn.concat(sudokuCandidateNumbers.get(j));
+		for(String s : sudokuCanditateColumns)	{
+			System.out.print(s);
+			System.out.print("\n");
 		}
-		System.out.println(sudokuCanditateColumns.get(0));
-		System.out.println(secondColumn);
 		return sudokuCanditateColumns;					
 	}
 

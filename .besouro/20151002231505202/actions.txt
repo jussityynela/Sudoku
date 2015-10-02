@@ -333,3 +333,127 @@ CompilationAction 1443825096032 SudokuVerifier.java
 CompilationAction 1443825130112 SudokuVerifier.java
 RefactoringAction 1443825152297 TestSudokuVerifier.java ADD void testDigitCanAppearOnlyOnceInColumn()/2 METHOD
 EditAction 1443825152372 TestSudokuVerifier.java 2766 9 18 6
+CompilationAction 1443825152682 TestSudokuVerifier.java
+RefactoringAction 1443825162496 TestSudokuVerifier.java ADD String stringHasColumnsWithSameNumberButNotInRow/2 FIELD
+RefactoringAction 1443825182948 TestSudokuVerifier.java REMOVE stringHasColumnsWithSameNumberButNotInRow/2 FIELD
+CompilationAction 1443825183378 TestSudokuVerifier.java
+CompilationAction 1443825183525 TestSudokuVerifier.java
+RefactoringAction 1443825198269 TestSudokuVerifier.java REMOVE testDigitCanAppearOnlyOnceInColumn()/2 METHOD
+CompilationAction 1443825293007 SudokuVerifier.java
+CompilationAction 1443825299083 SudokuVerifier.java
+UnitTestCaseAction 1443825312691 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825312691 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+CompilationAction 1443825442324 SudokuVerifier.java
+CompilationAction 1443825442324 SudokuVerifier.java
+CompilationAction 1443825442325 SudokuVerifier.java
+UnitTestCaseAction 1443825468841 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825468841 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+CompilationAction 1443825488062 SudokuVerifier.java
+CompilationAction 1443825494054 SudokuVerifier.java
+UnitTestCaseAction 1443825497597 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825497598 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+CompilationAction 1443825531715 SudokuVerifier.java
+UnitTestCaseAction 1443825537896 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825537897 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+CompilationAction 1443825664856 SudokuVerifier.java
+CompilationAction 1443825671362 SudokuVerifier.java
+CompilationAction 1443825689883 SudokuVerifier.java
+UnitTestCaseAction 1443825777295 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825777296 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443825792930 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825792931 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+CompilationAction 1443825836295 SudokuVerifier.java
+UnitTestCaseAction 1443825845508 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825845509 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443825910274 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825910274 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443825964971 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443825964971 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826100939 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826100939 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826224562 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826224563 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826250058 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826250058 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826277156 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826277157 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+RefactoringAction 1443826375891 SudokuVerifier.java ADD String secondColumn FIELD
+RefactoringAction 1443826375893 SudokuVerifier.java ADD int j FIELD
+RefactoringAction 1443826378243 SudokuVerifier.java REMOVE j FIELD
+RefactoringAction 1443826378245 SudokuVerifier.java REMOVE secondColumn FIELD
+UnitTestCaseAction 1443826389292 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826389292 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826453792 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826453792 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826487991 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826487991 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826516130 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826516131 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+RefactoringAction 1443826575692 SudokuVerifier.java ADD String secondColumn FIELD
+RefactoringAction 1443826575693 SudokuVerifier.java ADD int j FIELD
+RefactoringAction 1443826580236 SudokuVerifier.java REMOVE j FIELD
+RefactoringAction 1443826580237 SudokuVerifier.java REMOVE secondColumn FIELD
+UnitTestCaseAction 1443826624273 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826624273 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+RefactoringAction 1443826806950 SudokuVerifier.java ADD String secondColumn FIELD
+RefactoringAction 1443826806951 SudokuVerifier.java ADD int j FIELD
+RefactoringAction 1443826809100 SudokuVerifier.java REMOVE j FIELD
+RefactoringAction 1443826809102 SudokuVerifier.java REMOVE secondColumn FIELD
+UnitTestCaseAction 1443826821882 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826821883 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826867532 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826867533 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443826907280 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826907280 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443826919549 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826919549 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443826927764 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826927765 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443826935805 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826935805 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443826971901 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443826971902 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn FAIL
+UnitTestCaseAction 1443826991309 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443826991309 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+CompilationAction 1443827104912 SudokuVerifier.java
+CompilationAction 1443827111447 SudokuVerifier.java
+UnitTestCaseAction 1443827134728 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827134729 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+RefactoringAction 1443827156221 SudokuVerifier.java ADD string columnCount FIELD
+RefactoringAction 1443827162161 SudokuVerifier.java ADD string columnCount/2 FIELD
+RefactoringAction 1443827164955 SudokuVerifier.java RENAME columnCount/2=>string row FIELD
+RefactoringAction 1443827165005 SudokuVerifier.java RENAME row=>string rowC FIELD
+RefactoringAction 1443827166050 SudokuVerifier.java RENAME rowC=>string rowCount FIELD
+RefactoringAction 1443827170476 SudokuVerifier.java ADD string rowCount/2 FIELD
+RefactoringAction 1443827188382 SudokuVerifier.java RENAME rowCount/2=>string number FIELD
+RefactoringAction 1443827189705 SudokuVerifier.java RENAME number=>string numberCount FIELD
+CompilationAction 1443827189847 SudokuVerifier.java
+CompilationAction 1443827201378 SudokuVerifier.java
+UnitTestCaseAction 1443827284093 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827284093 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInColumn OK
+UnitTestCaseAction 1443827293095 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443827293095 TestSudokuVerifier FAIL
+RefactoringAction 1443827504773 SudokuVerifier.java REMOVE splitEqually(String, int) METHOD
+RefactoringAction 1443827504775 SudokuVerifier.java REMOVE duplicates(int METHOD
+RefactoringAction 1443827504776 SudokuVerifier.java REMOVE hasDuplicatesInRow(List<String>, int METHOD
+RefactoringAction 1443827508424 SudokuVerifier.java ADD boolean hasDuplicatesInRow(List<String>, int METHOD
+RefactoringAction 1443827508424 SudokuVerifier.java ADD static List<String> splitEqually(String, int) METHOD
+RefactoringAction 1443827508424 SudokuVerifier.java ADD static boolean duplicates(int METHOD
+UnitTestCaseAction 1443827514088 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443827514089 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443827521687 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443827521687 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443827523370 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443827523371 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443827526558 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443827526558 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testCorrectSudokuString FAIL
+RefactoringAction 1443827592540 SudokuVerifier.java ADD String s FIELD
+RefactoringAction 1443827594849 SudokuVerifier.java REMOVE s FIELD
+UnitTestCaseAction 1443827602704 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827602704 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testCorrectSudokuString OK
+UnitTestCaseAction 1443827642783 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827642783 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testCorrectSudokuString OK
+UnitTestCaseAction 1443827651206 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827651207 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testCorrectSudokuString OK
+UnitTestCaseAction 1443827687248 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443827687248 TestSudokuVerifier OK

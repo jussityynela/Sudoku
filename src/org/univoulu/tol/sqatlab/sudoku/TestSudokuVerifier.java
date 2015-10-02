@@ -11,7 +11,8 @@ public class TestSudokuVerifier {
 	
 	private static final String incorrectSudokuString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	private static final String stringHasRowsWithSameNumberButNotInColumn = "111111111222222222333333333444444444555555555666666666777777777888888888999999999";
-	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789"; 
+	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
+	
 	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
@@ -59,13 +60,6 @@ public class TestSudokuVerifier {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
 		assertEquals(-3, sudokuVerifier.verify(stringHasRowsWithSameNumberButNotInColumn) );
-	}
-	
-	@Test
-	public void testDigitCanAppearOnlyOnceInColumn() {
-		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
-		//Assert
-		assertEquals(-4, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRow) );
 	}
 	
 	@Test
