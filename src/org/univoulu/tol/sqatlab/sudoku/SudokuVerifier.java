@@ -17,10 +17,13 @@ public class SudokuVerifier {
 		if(candidateSolution.contains(new String("-")))
 			return -1;
 		//First split the string to be in rows steps
+		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
+		char[] numbers;
 		for(String s: sudokuCandidateRows)
-			List<char> = 
-			
+		{
+			 numbers = s.toCharArray();
+		}	
 			
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
