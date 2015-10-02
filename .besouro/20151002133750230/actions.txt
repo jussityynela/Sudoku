@@ -1,0 +1,31 @@
+FileOpenedAction 1443782270354 SudokuVerifier.java 1683 3 12 0
+CompilationAction 1443782291688 SudokuVerifier.java
+CompilationAction 1443782291689 SudokuVerifier.java
+CompilationAction 1443782291843 SudokuVerifier.java
+CompilationAction 1443782305641 SudokuVerifier.java
+CompilationAction 1443782305788 SudokuVerifier.java
+CompilationAction 1443782309855 SudokuVerifier.java
+CompilationAction 1443782309996 SudokuVerifier.java
+CompilationAction 1443782345887 SudokuVerifier.java
+CompilationAction 1443782346016 SudokuVerifier.java
+CompilationAction 1443782346017 SudokuVerifier.java
+CompilationAction 1443782346018 SudokuVerifier.java
+CompilationAction 1443782351473 SudokuVerifier.java
+CompilationAction 1443782351475 SudokuVerifier.java
+CompilationAction 1443782351475 SudokuVerifier.java
+CompilationAction 1443782351621 SudokuVerifier.java
+CompilationAction 1443782351621 SudokuVerifier.java
+CompilationAction 1443782442547 SudokuVerifier.java
+CompilationAction 1443782442548 SudokuVerifier.java
+CompilationAction 1443782442688 SudokuVerifier.java
+CompilationAction 1443782489955 SudokuVerifier.java
+CompilationAction 1443782490120 SudokuVerifier.java
+CompilationAction 1443782490121 SudokuVerifier.java
+CompilationAction 1443782493771 SudokuVerifier.java
+CompilationAction 1443782493773 SudokuVerifier.java
+CompilationAction 1443782493923 SudokuVerifier.java
+CompilationAction 1443782523999 SudokuVerifier.java
+CompilationAction 1443782524139 SudokuVerifier.java
+CompilationAction 1443782554804 SudokuVerifier.java
+CompilationAction 1443782554959 SudokuVerifier.java
+EditAction 1443782635781 SudokuVerifier.java 1850 3 13 0

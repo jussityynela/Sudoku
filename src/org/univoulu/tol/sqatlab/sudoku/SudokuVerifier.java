@@ -21,7 +21,15 @@ public class SudokuVerifier {
 		//First split the string to be in rows steps
 		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
-		int[] rowNumbers = sudokuCanditateRows[0];
+		int[] numbers = new int[9];
+		for(String s : sudokuCandidateRows)
+		{
+			String[] numbers_splitted = s.split("\\d");
+			for(int i: numbers)
+			{
+				numbers[i] = Integer.parseInt(numbers_splitted[i]);
+			}
+		}
 
 			
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
