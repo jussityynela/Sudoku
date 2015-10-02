@@ -3,3 +3,8 @@ FileOpenedAction 1443776853098 SudokuStringTooLongException.java 118 0 0 0
 FileOpenedAction 1443776864527 SudokuException.java 99 0 0 0
 EditAction 1443776877287 SudokuException.java 106 0 0 0
 EditAction 1443776895456 SudokuVerifier.java 274 1 2 0
+FileOpenedAction 1443776906405 TestSudokuVerifier.java 405 1 2 0
+UnitTestCaseAction 1443776911440 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443776911444 TestSudokuVerifier OK
+RefactoringAction 1443776951903 TestSudokuVerifier.java ADD void testStringTooLongException()/2 METHOD
+EditAction 1443776959468 TestSudokuVerifier.java 674 2 4 0
