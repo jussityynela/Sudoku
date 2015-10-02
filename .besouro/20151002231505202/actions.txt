@@ -98,3 +98,9 @@ FileOpenedAction 1443819056624 TestTennisGame.java 4003 16 65 20
 FileOpenedAction 1443819065408 TestSudokuVerifier.java 2170 7 14 4
 RefactoringAction 1443819078134 TestSudokuVerifier.java ADD String stringHasRowsWithSameNumberButNotInColumn/2 FIELD
 EditAction 1443819083020 TestSudokuVerifier.java 2327 7 14 4
+CompilationAction 1443819083415 TestSudokuVerifier.java
+RefactoringAction 1443819087974 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberButNotInColumn/2=>String stringHasColWithSameNumberButNotInColumn FIELD
+RefactoringAction 1443819089611 TestSudokuVerifier.java RENAME stringHasColWithSameNumberButNotInColumn=>String stringHasColumnsWithSameNumberButNotInColumn FIELD
+CompilationAction 1443819094423 TestSudokuVerifier.java
+RefactoringAction 1443819107041 TestSudokuVerifier.java ADD void testDigitCanAppearOnlyOnceInRow()/2 METHOD
+EditAction 1443819114681 TestSudokuVerifier.java 2546 8 16 5
