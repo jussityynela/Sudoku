@@ -77,3 +77,5 @@ EditAction 1443777451813 SudokuStringTooLongException.java 189 0 0 0
 RefactoringAction 1443777924310 SudokuException.java ADD long serialVersionUID FIELD
 EditAction 1443777925117 SudokuException.java 196 0 0 0
 EditAction 1443777939399 SudokuStringTooLongException.java 208 0 0 0
+RefactoringAction 1443777948889 SudokuStringEmptyException.java ADD long serialVersionUID FIELD
+EditAction 1443777950151 SudokuStringEmptyException.java 206 0 0 0
