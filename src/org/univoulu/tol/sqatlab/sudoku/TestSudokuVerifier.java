@@ -25,9 +25,9 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test(expected=SudokuStringEmptyException.class)
-	public void testStringEmptyException() {
+	public void testCorrectSudokuString() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		sudokuVerifier.verify("");
+		sudokuVerifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
 	}
 
 }
