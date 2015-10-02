@@ -150,3 +150,4 @@ RefactoringAction 1443778873763 TestSudokuVerifier.java RENAME SudokuStringW=>St
 RefactoringAction 1443778876421 TestSudokuVerifier.java RENAME SudokuString=>String SudokuStringWithNegative FIELD
 CompilationAction 1443778879309 TestSudokuVerifier.java
 EditAction 1443778891464 TestSudokuVerifier.java 1578 5 10 2
+EditAction 1443778906487 TestSudokuVerifier.java 1765 6 12 3
