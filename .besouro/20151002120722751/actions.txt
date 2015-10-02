@@ -72,3 +72,5 @@ UnitTestSessionAction 1443777313969 Rerun org.univoulu.tol.sqatlab.sudoku.TestSu
 RefactoringAction 1443777352666 TestSudokuVerifier.java ADD void testStringEmptyException()/2 METHOD
 RefactoringAction 1443777353509 TestSudokuVerifier.java REMOVE testStringEmptyException()/2 METHOD
 EditAction 1443777355650 TestSudokuVerifier.java 777 3 6 0
+RefactoringAction 1443777363184 SudokuStringTooLongException.java ADD long serialVersionUID FIELD
+EditAction 1443777451813 SudokuStringTooLongException.java 189 0 0 0
