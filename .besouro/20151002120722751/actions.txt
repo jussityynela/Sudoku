@@ -2,3 +2,4 @@ FileOpenedAction 1443776843270 SudokuVerifier.java 269 1 2 0
 FileOpenedAction 1443776853098 SudokuStringTooLongException.java 118 0 0 0
 FileOpenedAction 1443776864527 SudokuException.java 99 0 0 0
 EditAction 1443776877287 SudokuException.java 106 0 0 0
+EditAction 1443776895456 SudokuVerifier.java 274 1 2 0
