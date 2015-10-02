@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
+	private static final String correctSudokuString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
@@ -27,7 +28,7 @@ public class TestSudokuVerifier {
 	@Test(expected=SudokuStringEmptyException.class)
 	public void testCorrectSudokuString() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		sudokuVerifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		sudokuVerifier.verify("");
 	}
 
 }

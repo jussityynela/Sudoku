@@ -88,3 +88,6 @@ RefactoringAction 1443778230184 TestSudokuVerifier.java RENAME testStringEmptyEx
 RefactoringAction 1443778233203 TestSudokuVerifier.java RENAME testCorerc()=>void testCorrectSu() METHOD
 RefactoringAction 1443778235579 TestSudokuVerifier.java RENAME testCorrectSu()=>void testCorrectSudokuString() METHOD
 EditAction 1443778242330 TestSudokuVerifier.java 1038 4 8 0
+RefactoringAction 1443778258164 TestSudokuVerifier.java ADD String correctSudokuString() METHOD
+RefactoringAction 1443778261938 TestSudokuVerifier.java RENAME correctSudokuString()=>String correctSudokuString FIELD
+EditAction 1443778280539 TestSudokuVerifier.java 1093 4 8 0
