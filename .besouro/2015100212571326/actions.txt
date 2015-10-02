@@ -23,3 +23,14 @@ UnitTestCaseAction 1443780031468 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443780031469 TestSudokuVerifier FAIL
 EditAction 1443780039581 TestSudokuVerifier.java 1795 6 12 3
 EditAction 1443780051265 TestSudokuVerifier.java 1987 7 14 4
+CompilationAction 1443780051423 TestSudokuVerifier.java
+RefactoringAction 1443780093196 TestSudokuVerifier.java RENAME testInCorrectSudokuString()/2=>void testDigi() METHOD
+RefactoringAction 1443780094694 TestSudokuVerifier.java RENAME testDigi()=>void testDigitCan() METHOD
+RefactoringAction 1443780098516 TestSudokuVerifier.java RENAME testDigitCan()=>void testDigitCanAppearOnlyON() METHOD
+RefactoringAction 1443780099703 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyON()=>void testDigitCanAppearOnlyOnes() METHOD
+RefactoringAction 1443780100669 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOnes()=>void testDigitCanAppearOnlyOne() METHOD
+RefactoringAction 1443780105395 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOne()=>void testDigitCanAppearOnlyOnceIN() METHOD
+RefactoringAction 1443780105397 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOne()=>void testDigitCanAppearOnlyOnceIN() METHOD
+RefactoringAction 1443780107587 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOnceIN()=>void testDigitCanAppearOnlyOnceInRow() METHOD
+CompilationAction 1443780109137 TestSudokuVerifier.java
+EditAction 1443780122004 TestSudokuVerifier.java 1993 7 14 4
