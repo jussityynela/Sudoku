@@ -138,3 +138,5 @@ RefactoringAction 1443778826755 TestSudokuVerifier.java ADD void testCorrectSudo
 RefactoringAction 1443778827860 TestSudokuVerifier.java REMOVE testCorrectSudokuString()/2 METHOD
 RefactoringAction 1443778841931 TestSudokuVerifier.java ADD String correctSudokuString/2 FIELD
 EditAction 1443778847201 TestSudokuVerifier.java 1429 5 10 2
+CompilationAction 1443778847570 TestSudokuVerifier.java
+EditAction 1443778853494 TestSudokuVerifier.java 1566 5 10 2
