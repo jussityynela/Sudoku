@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		if( candidateSolution.length() > 81 )
 			throw new SudokuStringTooLongException();
 		if( candidateSolution.length() < 81 && !candidateSolution.isEmpty() )
-			throw new SudokuStringTooLongException();
+			throw new SudokuStringTooShortException();
 		return 0;
 	}
 }
