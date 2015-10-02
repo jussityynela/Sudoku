@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		else if( candidateSolution.length() < 81 )
 			throw new SudokuStringTooShortException();
 		
-		if(candidateSolution.contains(new CharSequence('-')))
+		if(candidateSolution.contains(new String("-")))
 			return -1;
 		//First split the string to be in rows steps
 		List<String> sudokuCanditeRows = splitEqually(candidateSolution, 9);
