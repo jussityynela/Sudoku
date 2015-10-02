@@ -37,3 +37,11 @@ EditAction 1443777087294 SudokuStringTooShortException.java 119 0 0 0
 UnitTestCaseAction 1443777089177 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443777089177 TestSudokuVerifier FAIL
 EditAction 1443777107000 TestSudokuVerifier.java 594 2 4 0
+UnitTestCaseAction 1443777111181 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777111182 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testStringTooShortException OK
+UnitTestCaseAction 1443777127254 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777127254 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testStringTooShortException OK
+UnitTestCaseAction 1443777173735 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777173736 TestSudokuVerifier OK
+RefactoringAction 1443777189475 TestSudokuVerifier.java ADD void testStringTooShortException()/2 METHOD
+EditAction 1443777189716 TestSudokuVerifier.java 783 3 6 0
