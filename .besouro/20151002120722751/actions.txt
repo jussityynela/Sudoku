@@ -45,3 +45,8 @@ UnitTestCaseAction 1443777173735 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443777173736 TestSudokuVerifier OK
 RefactoringAction 1443777189475 TestSudokuVerifier.java ADD void testStringTooShortException()/2 METHOD
 EditAction 1443777189716 TestSudokuVerifier.java 783 3 6 0
+CompilationAction 1443777189969 TestSudokuVerifier.java
+RefactoringAction 1443777198334 TestSudokuVerifier.java RENAME testStringTooShortException()/2=>void testStringEmptyException() METHOD
+RefactoringAction 1443777198338 TestSudokuVerifier.java RENAME testStringTooShortException()/2=>void testStringEmptyException() METHOD
+CompilationAction 1443777198436 TestSudokuVerifier.java
+EditAction 1443777206932 TestSudokuVerifier.java 779 3 6 0
