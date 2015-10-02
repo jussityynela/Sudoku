@@ -26,7 +26,8 @@ public class SudokuVerifier {
 		for(String s : sudokuCandidateRows)
 		{
 			
-			List<String> numbers_splitted = splitEqually(candidateSolution, 9);
+			List<String> numbers_splitted = splitEqually(s, 1);
+			System.out.print(numbers_splitted.get(0));	
 			for(int i=0; i<9; ++i)
 			{
 				numbers[i] = Integer.parseInt(numbers_splitted.get(i));			
