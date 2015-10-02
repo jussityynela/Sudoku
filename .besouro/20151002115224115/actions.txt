@@ -13,3 +13,20 @@ EditAction 1443776486557 TestSudokuVerifier.java 405 1 2 0
 CompilationAction 1443776486801 TestSudokuVerifier.java
 CompilationAction 1443776486801 TestSudokuVerifier.java
 EditAction 1443776596591 SudokuVerifier.java 265 1 2 0
+CompilationAction 1443776596804 SudokuVerifier.java
+CompilationAction 1443776596805 SudokuVerifier.java
+CompilationAction 1443776618507 SudokuVerifier.java
+CompilationAction 1443776618649 SudokuVerifier.java
+CompilationAction 1443776618650 SudokuVerifier.java
+RefactoringAction 1443776642389 SudokuStringTooLongException.java ADD SudokuStringTooLongException.java CLASS
+CompilationAction 1443776642563 SudokuStringTooLongException.java
+CompilationAction 1443776642563 SudokuVerifier.java
+CompilationAction 1443776642564 SudokuVerifier.java
+CompilationAction 1443776642564 TestSudokuVerifier.java
+FileOpenedAction 1443776642628 SudokuStringTooLongException.java 118 0 0 0
+RefactoringAction 1443776678202 SudokuException.java ADD SudokuException.java CLASS
+CompilationAction 1443776678380 SudokuVerifier.java
+CompilationAction 1443776678380 SudokuVerifier.java
+CompilationAction 1443776678381 TestSudokuVerifier.java
+FileOpenedAction 1443776678437 SudokuException.java 81 0 0 0
+EditAction 1443776686247 SudokuException.java 99 0 0 0
