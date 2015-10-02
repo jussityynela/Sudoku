@@ -134,3 +134,7 @@ RefactoringAction 1443778807262 TestSudokuVerifier.java RENAME testAllStringAreP
 RefactoringAction 1443778810121 TestSudokuVerifier.java RENAME testAllStringArePosit()=>void testAllStringArePositiveRule() METHOD
 CompilationAction 1443778810172 TestSudokuVerifier.java
 EditAction 1443778814247 TestSudokuVerifier.java 1292 5 10 2
+RefactoringAction 1443778826755 TestSudokuVerifier.java ADD void testCorrectSudokuString()/2 METHOD
+RefactoringAction 1443778827860 TestSudokuVerifier.java REMOVE testCorrectSudokuString()/2 METHOD
+RefactoringAction 1443778841931 TestSudokuVerifier.java ADD String correctSudokuString/2 FIELD
+EditAction 1443778847201 TestSudokuVerifier.java 1429 5 10 2
