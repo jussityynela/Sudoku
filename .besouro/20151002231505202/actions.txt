@@ -104,3 +104,4 @@ RefactoringAction 1443819089611 TestSudokuVerifier.java RENAME stringHasColWithS
 CompilationAction 1443819094423 TestSudokuVerifier.java
 RefactoringAction 1443819107041 TestSudokuVerifier.java ADD void testDigitCanAppearOnlyOnceInRow()/2 METHOD
 EditAction 1443819114681 TestSudokuVerifier.java 2546 8 16 5
+EditAction 1443819128071 TestSudokuVerifier.java 2546 8 16 5

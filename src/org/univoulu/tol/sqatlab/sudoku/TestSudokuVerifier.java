@@ -65,6 +65,6 @@ public class TestSudokuVerifier {
 	public void testDigitCanAppearOnlyOnceInColumn() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
-		assertEquals(-3, sudokuVerifier.verify(stringHasRowsWithSameNumberButNotInColumn) );
+		assertEquals(-3, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRow) );
 	}
 }
