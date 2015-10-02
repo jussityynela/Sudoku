@@ -1,2 +1,10 @@
 1443818300852 test-addition 2 1394 true
 1443818745503 regression 2 420 false
+1443819158332 test-addition 1 104 false
+1443824225154 refactoring 2B 5055 false
+1443824426319 regression 1 0 false
+1443824451461 regression 1 0 true
+1443824457340 regression 1 0 false
+1443824481066 regression 1 0 false
+1443824508757 regression 1 0 true
+1443824545377 regression 1 0 true
