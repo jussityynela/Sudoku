@@ -52,4 +52,11 @@ public class TestSudokuVerifier {
 		assertEquals(-1, sudokuVerifier.verify(SudokuStringWithNegativeNumber) );
 	}
 
+	@Test
+	public void testInCorrectSudokuString() {
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		
+		//Assert
+		assertNotEquals(0, sudokuVerifier.verify(incorrectSudokuString) );
+	}
 }
