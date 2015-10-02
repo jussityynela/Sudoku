@@ -18,7 +18,7 @@ public class TestSudokuVerifier {
 		sudokuVerifier.verify("1");
 	}
 	
-	@Test(expected=SudokuStringTooShortException.class)
+	@Test(expected=SudokuStringEmptyException.class)
 	public void testStringEmptyException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify("");
