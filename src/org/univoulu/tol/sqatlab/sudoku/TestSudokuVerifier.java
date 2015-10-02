@@ -30,7 +30,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		
 		//Assert
-		assertEquals("0", sudokuVerifier.verify(correctSudokuString) );
+		assertEquals(0, sudokuVerifier.verify(correctSudokuString) );
 	}
 
 }
