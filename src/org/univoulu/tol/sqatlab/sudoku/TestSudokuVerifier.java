@@ -27,7 +27,7 @@ public class TestSudokuVerifier {
 	
 	@Test(expected=SudokuStringEmptyException.class)
 	public void testCorrectSudokuString() {
-		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		SudokuVerifier sudokuVerifier = new SudokuVerifier(correctSudokuString);
 		sudokuVerifier.verify("");
 	}
 
