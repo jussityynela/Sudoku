@@ -40,3 +40,6 @@
 1443778005231 test-first 4 652 true
 1443778314257 test-addition 2 286 true
 1443778314258 test-addition 1 286 true
+1443778442567 test-addition 2 60 true
+1443778442568 test-addition 2 60 true
+1443778442569 test-addition 1 60 true

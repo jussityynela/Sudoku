@@ -110,3 +110,6 @@ EditAction 1443778422576 TestSudokuVerifier.java 1101 4 8 1
 UnitTestCaseAction 1443778424326 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443778424326 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier FAIL
 EditAction 1443778440526 TestSudokuVerifier.java 1099 4 8 1
+UnitTestCaseAction 1443778442567 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443778442567 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
+EditAction 1443778668306 SudokuVerifier.java 568 1 2 0
