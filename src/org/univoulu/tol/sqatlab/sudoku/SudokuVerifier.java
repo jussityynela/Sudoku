@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class SudokuVerifier {
 
@@ -21,14 +22,20 @@ public class SudokuVerifier {
 		//First split the string to be in rows steps
 		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
+		for(String s :sudokuCandidateRows)
+			System.out.println(s);
 		int[] numbers = new int[9];
 		for(String s : sudokuCandidateRows)
 		{
+			
 			String[] numbers_splitted = s.split("\\d");
-			for(int i: numbers)
+			System.out.println(Arrays.toString(numbers_splitted));
+			for(int i=0; i<9; ++i)
 			{
-				numbers[i] = Integer.parseInt(numbers_splitted[i]);
+				numbers[i] = Integer.parseInt(numbers_splitted[i]);			
 			}
+			if(duplicates(numbers, 9) )
+					return -3;
 		}
 
 			
