@@ -92,3 +92,8 @@ RefactoringAction 1443778258164 TestSudokuVerifier.java ADD String correctSudoku
 RefactoringAction 1443778261938 TestSudokuVerifier.java RENAME correctSudokuString()=>String correctSudokuString FIELD
 EditAction 1443778280539 TestSudokuVerifier.java 1093 4 8 0
 EditAction 1443778293465 TestSudokuVerifier.java 1112 4 8 0
+CompilationAction 1443778293702 TestSudokuVerifier.java
+CompilationAction 1443778301891 TestSudokuVerifier.java
+UnitTestCaseAction 1443778304090 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443778304090 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier FAIL
+EditAction 1443778312568 TestSudokuVerifier.java 1067 4 8 0

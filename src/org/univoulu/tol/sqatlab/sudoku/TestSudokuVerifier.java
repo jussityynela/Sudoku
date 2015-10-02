@@ -25,10 +25,10 @@ public class TestSudokuVerifier {
 		sudokuVerifier.verify("");
 	}
 	
-	@Test(expected=SudokuStringEmptyException.class)
+	@Test
 	public void testCorrectSudokuString() {
-		SudokuVerifier sudokuVerifier = new SudokuVerifier(correctSudokuString);
-		sudokuVerifier.verify("");
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		sudokuVerifier.verify(correctSudokuString);
 	}
 
 }
