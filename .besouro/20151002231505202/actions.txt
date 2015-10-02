@@ -1,0 +1,56 @@
+FileOpenedAction 1443816905910 SudokuVerifier.java 2050 3 14 0
+FileOpenedAction 1443816912687 TestSudokuVerifier.java 1990 7 14 4
+UnitTestCaseAction 1443816929743 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443816929749 TestSudokuVerifier FAIL
+CompilationAction 1443816963252 SudokuVerifier.java
+CompilationAction 1443816963252 SudokuVerifier.java
+CompilationAction 1443816973162 SudokuVerifier.java
+CompilationAction 1443816973163 SudokuVerifier.java
+CompilationAction 1443816973311 SudokuVerifier.java
+CompilationAction 1443816973312 SudokuVerifier.java
+CompilationAction 1443816980273 SudokuVerifier.java
+CompilationAction 1443816980417 SudokuVerifier.java
+UnitTestCaseAction 1443816985685 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443816985686 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow FAIL
+CompilationAction 1443817012657 SudokuVerifier.java
+UnitTestCaseAction 1443817015860 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817015861 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+UnitTestCaseAction 1443817040654 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817040655 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+UnitTestCaseAction 1443817603629 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817603630 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+CompilationAction 1443817690817 SudokuVerifier.java
+CompilationAction 1443817696858 SudokuVerifier.java
+CompilationAction 1443817696929 SudokuVerifier.java
+CompilationAction 1443817725582 SudokuVerifier.java
+CompilationAction 1443817725649 SudokuVerifier.java
+CompilationAction 1443817725650 SudokuVerifier.java
+CompilationAction 1443817743709 SudokuVerifier.java
+CompilationAction 1443817743749 SudokuVerifier.java
+CompilationAction 1443817753312 SudokuVerifier.java
+UnitTestCaseAction 1443817765354 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817765355 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+UnitTestCaseAction 1443817769257 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817769258 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+RefactoringAction 1443817782516 TestSudokuVerifier.java ADD void splitEqually() METHOD
+RefactoringAction 1443817783868 TestSudokuVerifier.java REMOVE splitEqually() METHOD
+RefactoringAction 1443817787956 TestSudokuVerifier.java ADD String incorrectSudokuString/2 FIELD
+RefactoringAction 1443817792416 TestSudokuVerifier.java RENAME incorrectSudokuString/2=>String stringHas FIELD
+RefactoringAction 1443817799183 TestSudokuVerifier.java RENAME stringHas=>String stringHasLine FIELD
+RefactoringAction 1443817800684 TestSudokuVerifier.java RENAME stringHasLine=>String stringHasLinesWith FIELD
+RefactoringAction 1443817807124 TestSudokuVerifier.java RENAME stringHasLinesWith=>String stringHasRowa FIELD
+RefactoringAction 1443817809169 TestSudokuVerifier.java RENAME stringHasRowa=>String stringHasRowsWith FIELD
+RefactoringAction 1443817810406 TestSudokuVerifier.java RENAME stringHasRowsWith=>String stringHasRowsWithSame FIELD
+RefactoringAction 1443817811103 TestSudokuVerifier.java RENAME stringHasRowsWithSame=>String stringHasRowsWithSam FIELD
+RefactoringAction 1443817815237 TestSudokuVerifier.java RENAME stringHasRowsWithSam=>String stringHasRowsWithSameNumber FIELD
+EditAction 1443817815743 TestSudokuVerifier.java 2134 7 14 4
+RefactoringAction 1443817884668 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumber=>String stringHasRowsWithSameNumberBut FIELD
+RefactoringAction 1443817884782 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberBut=>String stringHasRowsWithSameNumberButN FIELD
+RefactoringAction 1443817884873 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberButN=>String stringHasRowsWithSameNumberButNi FIELD
+RefactoringAction 1443817887637 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberButNi=>String stringHasRowsWithSameNumberButN FIELD
+RefactoringAction 1443817889867 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberButN=>String stringHasRowsWithSameNumberButNotInCo FIELD
+RefactoringAction 1443817891147 TestSudokuVerifier.java RENAME stringHasRowsWithSameNumberButNotInCo=>String stringHasRowsWithSameNumberButNotInColumn FIELD
+EditAction 1443817953447 TestSudokuVerifier.java 2139 7 14 4
+UnitTestCaseAction 1443817962643 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443817962644 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) FAIL
+EditAction 1443817970471 TestSudokuVerifier.java 2159 7 14 4
