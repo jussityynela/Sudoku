@@ -32,5 +32,13 @@ public class TestSudokuVerifier {
 		//Assert
 		assertEquals(0, sudokuVerifier.verify(correctSudokuString) );
 	}
+	
+	@Test
+	public void testCorrectSudokuString() {
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		
+		//Assert
+		assertEquals(0, sudokuVerifier.verify(correctSudokuString) );
+	}
 
 }

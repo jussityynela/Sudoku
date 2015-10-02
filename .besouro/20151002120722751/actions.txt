@@ -121,3 +121,6 @@ CompilationAction 1443778696925 SudokuVerifier.java
 EditAction 1443778699512 SudokuVerifier.java 575 1 2 0
 CompilationAction 1443778699776 SudokuVerifier.java
 EditAction 1443778707076 SudokuVerifier.java 584 1 3 0
+UnitTestCaseAction 1443778709558 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443778709559 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
+EditAction 1443778796482 TestSudokuVerifier.java 1286 5 10 2
