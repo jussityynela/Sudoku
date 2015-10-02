@@ -19,10 +19,19 @@ public class SudokuVerifier {
 		
 		if(candidateSolution.contains(new String("-")))
 			return -1;
-		//First split the string to be in rows steps
-		
+		//First split the string to be in rows steps		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
 		int[] numbers = new int[9];
+		if(hasDuplicatesInRow(sudokuCandidateRows, numbers) )
+			return -3;
+			
+		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
+			return 0;
+		return -5;
+	}
+
+	private boolean hasDuplicatesInRow(List<String> sudokuCandidateRows, int[] numbers) {
+		boolean hasDuplicates = false;
 		for(String s : sudokuCandidateRows)
 		{
 			
@@ -33,13 +42,9 @@ public class SudokuVerifier {
 				numbers[i] = Integer.parseInt(numbers_splitted.get(i));			
 			}
 			if(duplicates(numbers, 9) )
-					return -3;
+				hasDuplicates = true;
 		}
-
-			
-		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
-			return 0;
-		return -5;
+		return hasDuplicates;
 	}
 	
 	public static List<String> splitEqually(String text, int size) {

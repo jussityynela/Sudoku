@@ -68,3 +68,33 @@ UnitTestSessionAction 1443818236170 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.
 UnitTestCaseAction 1443818300851 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443818300852 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) OK
 EditAction 1443818324866 TestSudokuVerifier.java 2170 7 14 4
+CompilationAction 1443818575209 SudokuVerifier.java
+CompilationAction 1443818581706 SudokuVerifier.java
+CompilationAction 1443818581707 SudokuVerifier.java
+CompilationAction 1443818581707 SudokuVerifier.java
+CompilationAction 1443818581707 SudokuVerifier.java
+CompilationAction 1443818581708 SudokuVerifier.java
+CompilationAction 1443818581708 SudokuVerifier.java
+CompilationAction 1443818617001 SudokuVerifier.java
+CompilationAction 1443818617001 SudokuVerifier.java
+CompilationAction 1443818617035 SudokuVerifier.java
+CompilationAction 1443818617035 SudokuVerifier.java
+CompilationAction 1443818622119 SudokuVerifier.java
+CompilationAction 1443818622166 SudokuVerifier.java
+RefactoringAction 1443818685461 SudokuVerifier.java ADD void hasDuplicatesInRow(List<String>, int METHOD
+CompilationAction 1443818685977 SudokuVerifier.java
+CompilationAction 1443818685977 SudokuVerifier.java
+CompilationAction 1443818714380 SudokuVerifier.java
+CompilationAction 1443818714381 SudokuVerifier.java
+CompilationAction 1443818725517 SudokuVerifier.java
+CompilationAction 1443818741452 SudokuVerifier.java
+UnitTestCaseAction 1443818745503 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443818745503 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInRow (Failed Tests first) OK
+FileOpenedAction 1443819054054 SudokuStringTooLongException.java 208 0 0 0
+FileOpenedAction 1443819054538 SudokuException.java 196 0 0 0
+FileOpenedAction 1443819055216 SudokuStringTooShortException.java 119 0 0 0
+FileOpenedAction 1443819055918 SudokuStringEmptyException.java 206 0 0 0
+FileOpenedAction 1443819056624 TestTennisGame.java 4003 16 65 20
+FileOpenedAction 1443819065408 TestSudokuVerifier.java 2170 7 14 4
+RefactoringAction 1443819078134 TestSudokuVerifier.java ADD String stringHasRowsWithSameNumberButNotInColumn/2 FIELD
+EditAction 1443819083020 TestSudokuVerifier.java 2327 7 14 4
