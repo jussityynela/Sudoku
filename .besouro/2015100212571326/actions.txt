@@ -34,3 +34,6 @@ RefactoringAction 1443780105397 TestSudokuVerifier.java RENAME testDigitCanAppea
 RefactoringAction 1443780107587 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOnceIN()=>void testDigitCanAppearOnlyOnceInRow() METHOD
 CompilationAction 1443780109137 TestSudokuVerifier.java
 EditAction 1443780122004 TestSudokuVerifier.java 1993 7 14 4
+UnitTestCaseAction 1443780129168 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443780129169 TestSudokuVerifier OK
+EditAction 1443780136211 TestSudokuVerifier.java 1990 7 14 4

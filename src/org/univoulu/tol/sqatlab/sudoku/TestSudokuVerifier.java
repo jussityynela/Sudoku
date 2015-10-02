@@ -56,6 +56,6 @@ public class TestSudokuVerifier {
 	public void testDigitCanAppearOnlyOnceInRow() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
-		assertNotEquals(-3, sudokuVerifier.verify(incorrectSudokuString) );
+		assertEquals(-3, sudokuVerifier.verify(incorrectSudokuString) );
 	}
 }
