@@ -80,3 +80,6 @@ EditAction 1443777939399 SudokuStringTooLongException.java 208 0 0 0
 RefactoringAction 1443777948889 SudokuStringEmptyException.java ADD long serialVersionUID FIELD
 EditAction 1443777950151 SudokuStringEmptyException.java 206 0 0 0
 EditAction 1443778003438 SudokuVerifier.java 452 1 2 0
+UnitTestCaseAction 1443778005227 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443778005227 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
+EditAction 1443778027921 TestSudokuVerifier.java 958 4 8 0
