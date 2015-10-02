@@ -18,8 +18,8 @@ public class SudokuVerifier {
 			return -1;
 		//First split the string to be in rows steps
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
-		foreach(String s: sudokuCandidateRows)
-		
+		for(String s: sudokuCandidateRows)
+			checkDoesItContainSameNumbers();		
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
 		return -5;
