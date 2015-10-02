@@ -140,3 +140,13 @@ RefactoringAction 1443778841931 TestSudokuVerifier.java ADD String correctSudoku
 EditAction 1443778847201 TestSudokuVerifier.java 1429 5 10 2
 CompilationAction 1443778847570 TestSudokuVerifier.java
 EditAction 1443778853494 TestSudokuVerifier.java 1566 5 10 2
+CompilationAction 1443778853737 TestSudokuVerifier.java
+CompilationAction 1443778857242 TestSudokuVerifier.java
+CompilationAction 1443778857419 TestSudokuVerifier.java
+RefactoringAction 1443778872647 TestSudokuVerifier.java RENAME correctSudokuString/2=>String SudokuString FIELD
+RefactoringAction 1443778872703 TestSudokuVerifier.java RENAME SudokuString=>String SudokuStringWi FIELD
+RefactoringAction 1443778873708 TestSudokuVerifier.java RENAME SudokuStringWi=>String SudokuStringW FIELD
+RefactoringAction 1443778873763 TestSudokuVerifier.java RENAME SudokuStringW=>String SudokuString FIELD
+RefactoringAction 1443778876421 TestSudokuVerifier.java RENAME SudokuString=>String SudokuStringWithNegative FIELD
+CompilationAction 1443778879309 TestSudokuVerifier.java
+EditAction 1443778891464 TestSudokuVerifier.java 1578 5 10 2
