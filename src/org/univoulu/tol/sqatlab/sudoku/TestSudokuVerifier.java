@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
-	@Test
+	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify("1234567891234567891234567891234567891234567891234567891234567891234567891234567890");
