@@ -44,7 +44,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testAllStringArePositiveRule() {
+	public void testAllStringArePositiveRuleNegativeOne() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		
 		//Assert

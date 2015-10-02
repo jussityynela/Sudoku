@@ -8,3 +8,10 @@ FileOpenedAction 1443779905915 TestSudokuVerifier.java 1771 6 12 3
 UnitTestCaseAction 1443779918456 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443779918464 TestSudokuVerifier FAIL
 EditAction 1443779935700 TestSudokuVerifier.java 1782 6 12 3
+UnitTestCaseAction 1443779940482 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443779940484 TestSudokuVerifier OK
+RefactoringAction 1443779950414 TestSudokuVerifier.java RENAME testAllStringArePositiveRule()=>void testAllStringArePositiveRuleNe() METHOD
+RefactoringAction 1443779950489 TestSudokuVerifier.java RENAME testAllStringArePositiveRuleNe()=>void testAllStringArePositiveRuleNeg() METHOD
+RefactoringAction 1443779951273 TestSudokuVerifier.java RENAME testAllStringArePositiveRuleNeg()=>void testAllStringArePositiveRuleNegat() METHOD
+RefactoringAction 1443779952485 TestSudokuVerifier.java RENAME testAllStringArePositiveRuleNegat()=>void testAllStringArePositiveRuleNegative() METHOD
+EditAction 1443779954121 TestSudokuVerifier.java 1793 6 12 3
