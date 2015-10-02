@@ -41,7 +41,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		
 		//Assert
-		assertNotEquals(0, sudokuVerifier.verify(incorrectSudokuString) );
+		assertEquals(0, sudokuVerifier.verify(incorrectSudokuString) );
 	}
 	
 	@Test

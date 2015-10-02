@@ -18,3 +18,4 @@ EditAction 1443779954121 TestSudokuVerifier.java 1793 6 12 3
 RefactoringAction 1443779994230 TestSudokuVerifier.java ADD String SudokuStringWithNegativeNumber/2 FIELD
 RefactoringAction 1443780003106 TestSudokuVerifier.java REMOVE SudokuStringWithNegativeNumber/2 FIELD
 EditAction 1443780003251 TestSudokuVerifier.java 1795 6 12 3
+EditAction 1443780027336 TestSudokuVerifier.java 1792 6 12 3
