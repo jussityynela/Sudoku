@@ -22,17 +22,14 @@ public class SudokuVerifier {
 		//First split the string to be in rows steps
 		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
-		for(String s :sudokuCandidateRows)
-			System.out.println(s);
 		int[] numbers = new int[9];
 		for(String s : sudokuCandidateRows)
 		{
 			
-			String[] numbers_splitted = s.split("\\d");
-			System.out.println(Arrays.toString(numbers_splitted));
+			List<String> numbers_splitted = splitEqually(candidateSolution, 9);
 			for(int i=0; i<9; ++i)
 			{
-				numbers[i] = Integer.parseInt(numbers_splitted[i]);			
+				numbers[i] = Integer.parseInt(numbers_splitted.get(i));			
 			}
 			if(duplicates(numbers, 9) )
 					return -3;

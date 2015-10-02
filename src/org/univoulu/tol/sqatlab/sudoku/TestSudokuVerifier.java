@@ -10,6 +10,7 @@ public class TestSudokuVerifier {
 	private static final String SudokuStringWithNegativeNumber = "417-36982563215894795872431682543716979158643234691275828964357157329168416487529";
 	
 	private static final String incorrectSudokuString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
+	private static final String stringHasRowsWithSameNumber = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
