@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 		sudokuVerifier.verify("1234567891234567891234567891234567891234567891234567891234567891234567891234567890");
 	}
 	
-	@Test(expected=SudokuStringTooLongException.class)
+	@Test(expected=SudokuStringTooShortException.class)
 	public void testStringTooShortException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify("1");
