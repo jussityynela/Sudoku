@@ -12,7 +12,7 @@ public class SudokuVerifier {
 			throw new SudokuStringTooShortException();
 		//First split the string to be in rows steps
 		String[] sudokuCanditeRows= new String[9];
-		for(int i =0; i<9;++i)
+		for(int i =0; i<9 i+9)
 			sudokuCanditeRows[i] = candidateSolution.substring(i, 9);
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
