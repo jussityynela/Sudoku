@@ -1,5 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -11,11 +14,21 @@ public class SudokuVerifier {
 		else if( candidateSolution.length() < 81 )
 			throw new SudokuStringTooShortException();
 		//First split the string to be in rows steps
-		String[] sudokuCanditeRows= new String[9];
-		for(int i =0; i<9 i+9)
-			sudokuCanditeRows[i] = candidateSolution.substring(i, 9);
+		String[] sudokuCanditeRows = splitEqually(candidateSolution, 9);
+		 
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
 		return -1;
+	}
+	
+	public static List<String> splitEqually(String text, int size) {
+	    // Give the list the right capacity to start with. You could use an array
+	    // instead if you wanted.
+	    List<String> ret = new ArrayList<String>((text.length() + size - 1) / size);
+
+	    for (int start = 0; start < text.length(); start += size) {
+	        ret.add(text.substring(start, Math.min(text.length(), start + size)));
+	    }
+	    return ret;
 	}
 }

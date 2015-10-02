@@ -181,3 +181,29 @@ CompilationAction 1443779402690 SudokuVerifier.java
 EditAction 1443779413860 SudokuVerifier.java 759 1 5 0
 EditAction 1443779419689 SudokuVerifier.java 759 1 5 0
 EditAction 1443779431170 SudokuVerifier.java 759 1 0 0
+CompilationAction 1443779431439 SudokuVerifier.java
+CompilationAction 1443779431440 SudokuVerifier.java
+CompilationAction 1443779431440 SudokuVerifier.java
+CompilationAction 1443779442555 SudokuVerifier.java
+CompilationAction 1443779442555 SudokuVerifier.java
+CompilationAction 1443779442696 SudokuVerifier.java
+CompilationAction 1443779445969 SudokuVerifier.java
+CompilationAction 1443779446106 SudokuVerifier.java
+CompilationAction 1443779446107 SudokuVerifier.java
+RefactoringAction 1443779547347 SudokuVerifier.java ADD static List<String> splitEqually(String, int) METHOD
+CompilationAction 1443779547431 SudokuVerifier.java
+CompilationAction 1443779547431 SudokuVerifier.java
+CompilationAction 1443779547603 SudokuVerifier.java
+CompilationAction 1443779547604 SudokuVerifier.java
+CompilationAction 1443779547604 SudokuVerifier.java
+CompilationAction 1443779547604 SudokuVerifier.java
+RefactoringAction 1443779564437 SudokuVerifier.java ADD import java.util.List IMPORT
+RefactoringAction 1443779567643 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1443779569512 SudokuVerifier.java
+CompilationAction 1443779569513 SudokuVerifier.java
+CompilationAction 1443779569514 SudokuVerifier.java
+CompilationAction 1443779569515 SudokuVerifier.java
+CompilationAction 1443779569669 SudokuVerifier.java
+CompilationAction 1443779569670 SudokuVerifier.java
+CompilationAction 1443779629989 SudokuVerifier.java
+EditAction 1443779635832 SudokuVerifier.java 1184 2 7 0
