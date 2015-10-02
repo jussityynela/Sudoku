@@ -36,11 +36,11 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testCorrectSudokuString() {
+	public void testInCorrectSudokuString() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		
 		//Assert
-		assertEquals(0, sudokuVerifier.verify(correctSudokuString) );
+		assertNotEquals(0, sudokuVerifier.verify(correctSudokuString) );
 	}
 	
 	@Test
