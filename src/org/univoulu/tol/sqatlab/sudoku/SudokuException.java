@@ -1,5 +1,5 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-public class SudokuException extends RunTimeException {
+public class SudokuException extends RuntimeException {
 
 }

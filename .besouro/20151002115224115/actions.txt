@@ -31,3 +31,10 @@ CompilationAction 1443776678381 TestSudokuVerifier.java
 FileOpenedAction 1443776678437 SudokuException.java 81 0 0 0
 EditAction 1443776686247 SudokuException.java 99 0 0 0
 EditAction 1443776737780 SudokuException.java 106 0 0 0
+CompilationAction 1443776738035 SudokuException.java
+CompilationAction 1443776738035 SudokuStringTooLongException.java
+CompilationAction 1443776738036 SudokuVerifier.java
+CompilationAction 1443776738036 SudokuVerifier.java
+CompilationAction 1443776738037 TestSudokuVerifier.java
+CompilationAction 1443776751029 SudokuException.java
+CompilationAction 1443776751197 SudokuVerifier.java
