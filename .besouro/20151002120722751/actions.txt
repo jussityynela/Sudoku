@@ -8,3 +8,12 @@ UnitTestCaseAction 1443776911440 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443776911444 TestSudokuVerifier OK
 RefactoringAction 1443776951903 TestSudokuVerifier.java ADD void testStringTooLongException()/2 METHOD
 EditAction 1443776959468 TestSudokuVerifier.java 674 2 4 0
+CompilationAction 1443776959600 TestSudokuVerifier.java
+CompilationAction 1443776959601 TestSudokuVerifier.java
+CompilationAction 1443776959602 TestSudokuVerifier.java
+RefactoringAction 1443776963918 TestSudokuVerifier.java RENAME testStringTooLongException()/2=>void testStringTooSException() METHOD
+RefactoringAction 1443776965182 TestSudokuVerifier.java RENAME testStringTooSException()=>void testStringTooShortException() METHOD
+CompilationAction 1443776965238 TestSudokuVerifier.java
+CompilationAction 1443776965384 TestSudokuVerifier.java
+CompilationAction 1443776965384 TestSudokuVerifier.java
+EditAction 1443776970958 TestSudokuVerifier.java 594 2 4 0
