@@ -22,6 +22,6 @@ public class TestSudokuVerifier {
 	public void testStringEmptyException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify("");
-	}
+	}	
 
 }

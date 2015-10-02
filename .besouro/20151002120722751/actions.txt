@@ -62,3 +62,13 @@ CompilationAction 1443777248334 TestSudokuVerifier.java
 UnitTestCaseAction 1443777253728 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443777253729 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier FAIL
 EditAction 1443777264533 SudokuVerifier.java 471 1 4 0
+CompilationAction 1443777264798 SudokuVerifier.java
+UnitTestCaseAction 1443777277000 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777277001 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier FAIL
+RefactoringAction 1443777303243 SudokuStringEmptyException.java ADD SudokuStringEmptyException.java CLASS
+FileOpenedAction 1443777303540 SudokuStringEmptyException.java 116 0 0 0
+UnitTestCaseAction 1443777313969 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777313969 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
+RefactoringAction 1443777352666 TestSudokuVerifier.java ADD void testStringEmptyException()/2 METHOD
+RefactoringAction 1443777353509 TestSudokuVerifier.java REMOVE testStringEmptyException()/2 METHOD
+EditAction 1443777355650 TestSudokuVerifier.java 777 3 6 0
