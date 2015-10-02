@@ -1,6 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 public class SudokuVerifier {
@@ -19,11 +21,8 @@ public class SudokuVerifier {
 		//First split the string to be in rows steps
 		
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, 9);
-		char[] numbers;
-		for(String s: sudokuCandidateRows)
-		{
-			 numbers = s.toCharArray();
-		}	
+		int[] rowNumbers = sudokuCanditateRows[0];
+
 			
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
@@ -39,5 +38,18 @@ public class SudokuVerifier {
 	        ret.add(text.substring(start, Math.min(text.length(), start + size)));
 	    }
 	    return ret;
+	}
+	
+	public static boolean duplicates (int [] x, int numElementsInX ) {
+	    Set<Integer> set = new HashSet<Integer>();
+	    for ( int i = 0; i < numElementsInX; ++i ) {
+	        if ( set.contains( x[i])) {
+	            return true;
+	        }
+	        else {
+	            set.add(x[i]);
+	        }
+	    }
+	    return false;
 	}
 }
