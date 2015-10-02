@@ -124,3 +124,13 @@ EditAction 1443778707076 SudokuVerifier.java 584 1 3 0
 UnitTestCaseAction 1443778709558 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443778709559 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
 EditAction 1443778796482 TestSudokuVerifier.java 1286 5 10 2
+CompilationAction 1443778796715 TestSudokuVerifier.java
+RefactoringAction 1443778800669 TestSudokuVerifier.java RENAME testCorrectSudokuString()/2=>void test() METHOD
+RefactoringAction 1443778802676 TestSudokuVerifier.java RENAME test()=>void testAll() METHOD
+RefactoringAction 1443778803400 TestSudokuVerifier.java RENAME testAll()=>void testAllS() METHOD
+RefactoringAction 1443778805754 TestSudokuVerifier.java RENAME testAllS()=>void testAllStringAre() METHOD
+RefactoringAction 1443778807191 TestSudokuVerifier.java RENAME testAllStringAre()=>void testAllStringArePosi() METHOD
+RefactoringAction 1443778807262 TestSudokuVerifier.java RENAME testAllStringArePosi()=>void testAllStringArePosit() METHOD
+RefactoringAction 1443778810121 TestSudokuVerifier.java RENAME testAllStringArePosit()=>void testAllStringArePositiveRule() METHOD
+CompilationAction 1443778810172 TestSudokuVerifier.java
+EditAction 1443778814247 TestSudokuVerifier.java 1292 5 10 2

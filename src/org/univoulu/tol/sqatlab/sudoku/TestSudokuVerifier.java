@@ -34,11 +34,11 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testCorrectSudokuString() {
+	public void testAllStringArePositiveRule() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		
 		//Assert
-		assertEquals(0, sudokuVerifier.verify(correctSudokuString) );
+		assertEquals(-1, sudokuVerifier.verify(correctSudokuString) );
 	}
 
 }
