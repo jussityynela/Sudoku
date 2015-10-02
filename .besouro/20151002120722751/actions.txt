@@ -101,3 +101,6 @@ UnitTestCaseAction 1443778314256 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443778314257 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier OK
 FileOpenedAction 1443778381872 TestTennisGame.java 4003 16 65 20
 EditAction 1443778392539 TestSudokuVerifier.java 1129 4 9 1
+CompilationAction 1443778392804 TestSudokuVerifier.java
+CompilationAction 1443778403840 TestSudokuVerifier.java
+EditAction 1443778408331 TestSudokuVerifier.java 1101 4 8 1
