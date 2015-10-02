@@ -29,6 +29,8 @@ public class TestSudokuVerifier {
 	public void testCorrectSudokuString() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify(correctSudokuString);
+		//Assert
+		assertEquals("fifteen - love", game.GetScore());
 	}
 
 }
