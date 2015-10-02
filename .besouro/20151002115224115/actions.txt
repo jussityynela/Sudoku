@@ -7,3 +7,6 @@ RefactoringAction 1443776051321 TestSudokuVerifier.java RENAME testStringTooLong
 FileOpenedAction 1443776285127 SudokuVerifier.java 189 1 1 0
 EditAction 1443776396018 TestSudokuVerifier.java 394 1 3 0
 EditAction 1443776465517 TestSudokuVerifier.java 439 1 3 0
+CompilationAction 1443776465772 TestSudokuVerifier.java
+CompilationAction 1443776465773 TestSudokuVerifier.java
+EditAction 1443776486557 TestSudokuVerifier.java 405 1 2 0

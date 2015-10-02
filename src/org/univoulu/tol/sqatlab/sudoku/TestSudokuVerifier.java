@@ -10,8 +10,6 @@ public class TestSudokuVerifier {
 	public void testStringTooLongException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		sudokuVerifier.verify("1234567891234567891234567891234567891234567891234567891234567891234567891234567890");
-		
-		fail("Not yet implemented");
 	}
 
 }
