@@ -11,6 +11,8 @@ public class SudokuVerifier {
 		else if( candidateSolution.length() < 81 )
 			throw new SudokuStringTooShortException();
 		//First split the string to be in rows steps
+		while()
+			candidateSolution.substring(0, 9);
 		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))		
 			return 0;
 		return -1;
