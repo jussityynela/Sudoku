@@ -11,7 +11,9 @@ public class SudokuVerifier {
 		else if( candidateSolution.length() < 81 )
 			throw new SudokuStringTooShortException();
 		
-		if(canditateSolution.Equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))
-		return 0;
+		if(candidateSolution.equals("417369825632158947958724316825437169791586432346912758289643571573291684164875293"))
+		
+			return 0;
+		
 	}
 }
