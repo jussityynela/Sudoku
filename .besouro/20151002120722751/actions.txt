@@ -74,3 +74,5 @@ RefactoringAction 1443777353509 TestSudokuVerifier.java REMOVE testStringEmptyEx
 EditAction 1443777355650 TestSudokuVerifier.java 777 3 6 0
 RefactoringAction 1443777363184 SudokuStringTooLongException.java ADD long serialVersionUID FIELD
 EditAction 1443777451813 SudokuStringTooLongException.java 189 0 0 0
+RefactoringAction 1443777924310 SudokuException.java ADD long serialVersionUID FIELD
+EditAction 1443777925117 SudokuException.java 196 0 0 0
