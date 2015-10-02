@@ -29,3 +29,8 @@ EditAction 1443777042597 SudokuVerifier.java 391 1 3 0
 UnitTestCaseAction 1443777052841 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443777052842 TestSudokuVerifier OK
 EditAction 1443777065344 SudokuVerifier.java 392 1 3 0
+CompilationAction 1443777065473 SudokuVerifier.java
+RefactoringAction 1443777082434 SudokuStringTooShortException.java ADD SudokuStringTooShortException.java CLASS
+CompilationAction 1443777082611 SudokuVerifier.java
+FileOpenedAction 1443777082664 SudokuStringTooShortException.java 113 0 0 0
+EditAction 1443777087294 SudokuStringTooShortException.java 119 0 0 0
