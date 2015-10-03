@@ -4,3 +4,6 @@ RefactoringAction 1443865898804 TestSudokuVerifier.java RENAME stringHasColumnsW
 RefactoringAction 1443865899718 TestSudokuVerifier.java RENAME stringHasSWithSameNumberButNotInRow=>String stringHasSubWithSameNumberButNotInRow FIELD
 RefactoringAction 1443865901626 TestSudokuVerifier.java RENAME stringHasSubWithSameNumberButNotInRow=>String stringHasSubGridWithSameNumberButNotInRow FIELD
 EditAction 1443865901670 TestSudokuVerifier.java 2706 8 16 5
+RefactoringAction 1443865910254 TestSudokuVerifier.java ADD void testDigitCanAppearOnlyOnceInColumn()/2 METHOD
+RefactoringAction 1443865916263 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOnceInColumn()/2=>void testDigitCanAppearOnlyOnceInSubGrid FIELD
+EditAction 1443865916361 TestSudokuVerifier.java 2926 8 16 5
