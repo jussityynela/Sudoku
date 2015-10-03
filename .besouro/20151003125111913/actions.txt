@@ -36,3 +36,166 @@ EditAction 1443866001434 TestSudokuVerifier.java 2929 9 18 6
 CompilationAction 1443866001746 TestSudokuVerifier.java
 CompilationAction 1443866011024 TestSudokuVerifier.java
 EditAction 1443866023317 TestSudokuVerifier.java 2939 9 18 6
+UnitTestCaseAction 1443866026061 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443866026061 TestSudokuVerifier FAIL
+CompilationAction 1443866134074 SudokuVerifier.java
+CompilationAction 1443866134074 SudokuVerifier.java
+CompilationAction 1443866144199 SudokuVerifier.java
+CompilationAction 1443866144200 SudokuVerifier.java
+CompilationAction 1443866144220 SudokuVerifier.java
+CompilationAction 1443866144220 SudokuVerifier.java
+CompilationAction 1443866154253 SudokuVerifier.java
+CompilationAction 1443866154254 SudokuVerifier.java
+CompilationAction 1443866154276 SudokuVerifier.java
+CompilationAction 1443866173298 SudokuVerifier.java
+CompilationAction 1443866173439 SudokuVerifier.java
+CompilationAction 1443866214566 SudokuVerifier.java
+UnitTestCaseAction 1443866229956 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443866229956 TestSudokuVerifier (Failed Tests first) FAIL
+CompilationAction 1443866238447 SudokuVerifier.java
+UnitTestCaseAction 1443866239844 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443866239844 TestSudokuVerifier (Failed Tests first) FAIL
+RefactoringAction 1443866284846 SudokuVerifier.java ADD List<String> splitStringToColumns(String, int)/2 METHOD
+RefactoringAction 1443866290359 SudokuVerifier.java REMOVE splitStringToColumns(String, int)/2 METHOD
+RefactoringAction 1443866301757 SudokuVerifier.java ADD List<String> splitStringToColumns(String, int)/2 METHOD
+CompilationAction 1443866302661 SudokuVerifier.java
+RefactoringAction 1443866308624 SudokuVerifier.java RENAME splitStringToColumns(String, int)/2=>List<String> splitStringToSubGrid(String, int) METHOD
+RefactoringAction 1443866309506 SudokuVerifier.java RENAME splitStringToSubGrid(String, int)=>List<String> splitStringToSubGrids(String, int) METHOD
+CompilationAction 1443866309647 SudokuVerifier.java
+RefactoringAction 1443866322733 SudokuVerifier.java RENAME splitStringToSubGrids(String, int)=>List<String> splitStringToSubGrids(String) METHOD
+CompilationAction 1443866323624 SudokuVerifier.java
+CompilationAction 1443866338653 SudokuVerifier.java
+CompilationAction 1443866383533 SudokuVerifier.java
+CompilationAction 1443866417592 SudokuVerifier.java
+CompilationAction 1443866731610 SudokuVerifier.java
+CompilationAction 1443866731610 SudokuVerifier.java
+CompilationAction 1443866731610 SudokuVerifier.java
+CompilationAction 1443866799820 SudokuVerifier.java
+CompilationAction 1443866799820 SudokuVerifier.java
+CompilationAction 1443866799821 SudokuVerifier.java
+CompilationAction 1443866813379 SudokuVerifier.java
+CompilationAction 1443866813380 SudokuVerifier.java
+CompilationAction 1443866813396 SudokuVerifier.java
+RefactoringAction 1443866835013 SudokuVerifier.java RENAME splitStringToSubGrids(String)=>List<String> splitStringToSubGrids(String, int) METHOD
+CompilationAction 1443866835177 SudokuVerifier.java
+CompilationAction 1443866835209 SudokuVerifier.java
+CompilationAction 1443866835210 SudokuVerifier.java
+CompilationAction 1443866846619 SudokuVerifier.java
+CompilationAction 1443866846619 SudokuVerifier.java
+UnitTestCaseAction 1443866988231 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443866988232 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+CompilationAction 1443867021656 SudokuVerifier.java
+CompilationAction 1443867021657 SudokuVerifier.java
+CompilationAction 1443867025181 SudokuVerifier.java
+CompilationAction 1443867025182 SudokuVerifier.java
+CompilationAction 1443867031688 SudokuVerifier.java
+CompilationAction 1443867031689 SudokuVerifier.java
+CompilationAction 1443867031729 SudokuVerifier.java
+CompilationAction 1443867031729 SudokuVerifier.java
+CompilationAction 1443867329576 SudokuVerifier.java
+CompilationAction 1443867329576 SudokuVerifier.java
+CompilationAction 1443867369793 SudokuVerifier.java
+CompilationAction 1443867377827 SudokuVerifier.java
+CompilationAction 1443867377851 SudokuVerifier.java
+CompilationAction 1443867462811 SudokuVerifier.java
+CompilationAction 1443867470455 SudokuVerifier.java
+CompilationAction 1443867555627 SudokuVerifier.java
+CompilationAction 1443867579785 SudokuVerifier.java
+CompilationAction 1443867579930 SudokuVerifier.java
+CompilationAction 1443867805600 SudokuVerifier.java
+CompilationAction 1443867805600 SudokuVerifier.java
+CompilationAction 1443867805600 SudokuVerifier.java
+CompilationAction 1443867859848 SudokuVerifier.java
+CompilationAction 1443867886544 SudokuVerifier.java
+CompilationAction 1443867896053 SudokuVerifier.java
+CompilationAction 1443867941964 SudokuVerifier.java
+CompilationAction 1443868014376 SudokuVerifier.java
+CompilationAction 1443868014521 SudokuVerifier.java
+UnitTestCaseAction 1443868026597 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443868026597 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+CompilationAction 1443868047579 SudokuVerifier.java
+UnitTestCaseAction 1443868060075 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443868060076 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443868072525 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443868072526 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+RefactoringAction 1443868145128 SudokuVerifier.java REMOVE splitEqually(String, int) METHOD
+RefactoringAction 1443868145129 SudokuVerifier.java REMOVE duplicates(int METHOD
+RefactoringAction 1443868145130 SudokuVerifier.java REMOVE hasDuplicatesInRow(List<String>, int METHOD
+RefactoringAction 1443868147841 SudokuVerifier.java ADD boolean hasDuplicatesInRow(List<String>, int METHOD
+RefactoringAction 1443868147841 SudokuVerifier.java ADD static List<String> splitEqually(String, int) METHOD
+RefactoringAction 1443868147842 SudokuVerifier.java ADD static boolean duplicates(int METHOD
+UnitTestCaseAction 1443868151629 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443868151629 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+CompilationAction 1443868671402 SudokuVerifier.java
+CompilationAction 1443868671404 SudokuVerifier.java
+CompilationAction 1443868751092 SudokuVerifier.java
+CompilationAction 1443868751093 SudokuVerifier.java
+CompilationAction 1443868751144 SudokuVerifier.java
+CompilationAction 1443868771662 SudokuVerifier.java
+CompilationAction 1443868780620 SudokuVerifier.java
+CompilationAction 1443868819373 SudokuVerifier.java
+CompilationAction 1443868847257 SudokuVerifier.java
+CompilationAction 1443868847258 SudokuVerifier.java
+CompilationAction 1443868854305 SudokuVerifier.java
+CompilationAction 1443868854334 SudokuVerifier.java
+CompilationAction 1443868888198 SudokuVerifier.java
+CompilationAction 1443868888427 SudokuVerifier.java
+CompilationAction 1443868888428 SudokuVerifier.java
+CompilationAction 1443868956788 SudokuVerifier.java
+CompilationAction 1443868956789 SudokuVerifier.java
+CompilationAction 1443868956789 SudokuVerifier.java
+CompilationAction 1443868956790 SudokuVerifier.java
+CompilationAction 1443868956791 SudokuVerifier.java
+CompilationAction 1443868961527 SudokuVerifier.java
+CompilationAction 1443868961527 SudokuVerifier.java
+CompilationAction 1443868961527 SudokuVerifier.java
+CompilationAction 1443868962784 SudokuVerifier.java
+CompilationAction 1443868962785 SudokuVerifier.java
+CompilationAction 1443869033459 SudokuVerifier.java
+UnitTestCaseAction 1443869065000 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869065000 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+RefactoringAction 1443869092306 SudokuVerifier.java REMOVE splitStringToColumns(String, int) METHOD
+RefactoringAction 1443869096022 SudokuVerifier.java ADD List<String> splitStringToColumns(String, int) METHOD
+CompilationAction 1443869099848 SudokuVerifier.java
+CompilationAction 1443869104561 SudokuVerifier.java
+UnitTestCaseAction 1443869109778 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869109779 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869233700 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869233701 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+CompilationAction 1443869337720 SudokuVerifier.java
+CompilationAction 1443869350191 SudokuVerifier.java
+CompilationAction 1443869350213 SudokuVerifier.java
+CompilationAction 1443869357311 SudokuVerifier.java
+UnitTestCaseAction 1443869385498 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869385498 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869456289 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869456290 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869492255 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869492256 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+CompilationAction 1443869587944 SudokuVerifier.java
+UnitTestCaseAction 1443869598759 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869598760 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869625824 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869625825 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869698029 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869698030 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869780675 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869780676 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+RefactoringAction 1443869791328 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1443869791331 SudokuVerifier.java ADD int i/2 FIELD
+RefactoringAction 1443869791332 SudokuVerifier.java ADD String s FIELD
+RefactoringAction 1443869795813 SudokuVerifier.java REMOVE i FIELD
+RefactoringAction 1443869795814 SudokuVerifier.java REMOVE i/2 FIELD
+RefactoringAction 1443869795815 SudokuVerifier.java REMOVE s FIELD
+UnitTestCaseAction 1443869802760 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869802760 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869895580 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869895581 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443869903954 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443869903954 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443870436389 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443870436390 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+UnitTestCaseAction 1443870667708 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443870667708 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
+CompilationAction 1443870800803 SudokuVerifier.java
+CompilationAction 1443870814264 SudokuVerifier.java

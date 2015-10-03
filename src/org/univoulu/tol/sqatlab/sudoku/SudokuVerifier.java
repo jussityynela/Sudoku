@@ -22,11 +22,18 @@ public class SudokuVerifier {
 		
 		if(candidateSolution.contains(new String("-")))
 			return -1;
-		//Check if Column has duplicate numbers		
-		List<String> sudokuCandidateRows = splitEqually(candidateSolution, rowCount);
+		//Check if SubGrid has duplicate numbers		
+		List<String> sudokuCandidateColumn = splitEqually(candidateSolution, rowCount);
+		int[] numbersInGrid = new int[rowCount];
+		if(hasDuplicatesInRow(sudokuCandidateColumn, numbersInGrid) )
+			return -2;
+		
+		//Check if Row has duplicate numbers		
+		List<String> sudokuCandidateRows = splitStringToSubGrids(candidateSolution, rowCount);
 		int[] numbers = new int[rowCount];
 		if(hasDuplicatesInRow(sudokuCandidateRows, numbers) )
 			return -3;
+		
 		//Check if Column has duplicate numbers	
 		List<String> sudokuCandidateColumns = splitStringToColumns(candidateSolution, columnCount);
 		int[] numbersInColumn = new int[columnCount];
@@ -38,6 +45,75 @@ public class SudokuVerifier {
 		return -5;
 	}
 
+	
+	private List<String> splitStringToSubGrids(String candidateSolution, int columncount) {
+		List<String> sudokuCandidateRows = splitEqually(candidateSolution, columncount);
+		List<String> sudokuCandidateNumbers = splitEqually(candidateSolution, 1);
+		List<String> sudokuCanditateGrids = new ArrayList<String>(columncount);
+		for(int k=0; k<9; ++k){
+			sudokuCanditateGrids.add("");
+		}
+		
+		char[][] sudokuCandidateMatrix = new char[9][9];
+
+		
+		//row at a time
+		//
+		for(int i = 0; i <9; ++i){
+			for(int y = 0; y <9; ++y){
+				
+				sudokuCandidateMatrix[i][y] = sudokuCandidateRows.get(i).charAt(y);
+			}				
+		}
+		//0			 1         2
+		//0 1 2,    3 4 5,    6 7 8
+		//9 10 11, 12 13 14, 15,16,17
+		//18,19,20 ,21,22,23,24,25,26
+		//27,28,29,....
+		//first column is index x:0-2
+		//and y: 0-2
+		int row_counter = 0;
+		//for(String s: sudokuCanditateGrids){
+			for(int i = 0; i <9; ++i){
+				for(int y = 0; y <3; ++y){
+					sudokuCanditateGrids.set(row_counter, sudokuCanditateGrids.get(row_counter).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );									
+				}
+				row_counter;
+			}
+		//row_counter++;
+		//}
+		//second column is index x:3-5
+		//and y: 0-2
+		for(int i = 3; i <6; ++i){
+			for(int y = 0; y <3; ++y){
+				sudokuCanditateGrids.set(1, sudokuCanditateGrids.get(1).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );				
+			}
+			//System.out.print( "\n") ;
+		}
+		//third grid is index x:6-8
+		//and y: 0-2
+		for(int i = 6; i <9; ++i){
+			for(int y = 0; y <3; ++y){
+				sudokuCanditateGrids.set(2, sudokuCanditateGrids.get(2).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );				
+			}
+			//System.out.print( "\n") ;
+		}
+		//4 grid is index x:0-2
+		//and y: 3-5
+		for(int i = 0; i <3; ++i){
+			for(int y = 3; y <6; ++y){
+				sudokuCanditateGrids.set(3, sudokuCanditateGrids.get(3).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );				
+			}
+			//System.out.print( "\n") ;
+		}
+		for(String s : sudokuCanditateGrids)	{
+			System.out.print(s);
+			System.out.print("\n");
+		}
+		
+		return sudokuCanditateGrids;					
+	}
+	
 	private List<String> splitStringToColumns(String candidateSolution, int columncount) {
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, columncount);
 		List<String> sudokuCandidateNumbers = splitEqually(candidateSolution, 1);
@@ -63,10 +139,10 @@ public class SudokuVerifier {
 			}
 			counter++;
 		}
-		for(String s : sudokuCanditateColumns)	{
+		/**for(String s : sudokuCanditateColumns)	{
 			System.out.print(s);
 			System.out.print("\n");
-		}
+		}*/
 		return sudokuCanditateColumns;					
 	}
 
