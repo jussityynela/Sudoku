@@ -12,6 +12,8 @@ public class TestSudokuVerifier {
 	private static final String incorrectSudokuString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	private static final String stringHasRowsWithSameNumberButNotInColumn = "111111111222222222333333333444444444555555555666666666777777777888888888999999999";
 	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
+	private static final String stringHasSubGridWithSameNumberButNotInRow= "123456789234567891345678912456789123567891234678912345789123456891234567912345678";
+	
 	
 	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {

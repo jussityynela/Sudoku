@@ -1,0 +1,6 @@
+FileOpenedAction 1443865872021 TestSudokuVerifier.java 2547 8 16 5
+RefactoringAction 1443865885920 TestSudokuVerifier.java ADD String stringHasColumnsWithSameNumberButNotInRow/2 FIELD
+RefactoringAction 1443865898804 TestSudokuVerifier.java RENAME stringHasColumnsWithSameNumberButNotInRow/2=>String stringHasSWithSameNumberButNotInRow FIELD
+RefactoringAction 1443865899718 TestSudokuVerifier.java RENAME stringHasSWithSameNumberButNotInRow=>String stringHasSubWithSameNumberButNotInRow FIELD
+RefactoringAction 1443865901626 TestSudokuVerifier.java RENAME stringHasSubWithSameNumberButNotInRow=>String stringHasSubGridWithSameNumberButNotInRow FIELD
+EditAction 1443865901670 TestSudokuVerifier.java 2706 8 16 5
