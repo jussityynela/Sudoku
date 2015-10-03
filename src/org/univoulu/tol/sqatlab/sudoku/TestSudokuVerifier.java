@@ -58,21 +58,21 @@ public class TestSudokuVerifier {
 	}
 
 	@Test
-	public void testDigitCanAppearOnlyOnceInRow() {
+	public void testDigitCanAppearOnlyOnceInRowNeg3() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
 		assertEquals(-3, sudokuVerifier.verify(stringHasRowsWithSameNumberButNotInColumn) );
 	}
 	
 	@Test
-	public void testDigitCanAppearOnlyOnceInColumn() {
+	public void testDigitCanAppearOnlyOnceInColumnNeg2() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
 		assertEquals(-4, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRow) );
 	}
 	
 	@Test
-	public void testDigitCanAppearOnlyOnceInSubGridNeg2) {
+	public void testDigitCanAppearOnlyOnceInSubGridNeg2()) {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
 		assertEquals(-4, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRow) );
