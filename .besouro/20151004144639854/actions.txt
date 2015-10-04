@@ -349,3 +349,15 @@ EditAction 1443966190956 TestSudokuVerifier.java 5014 12 31 9
 EditAction 1443966205141 TestSudokuVerifier.java 5014 12 31 9
 EditAction 1443966248377 TestSudokuVerifier.java 5014 12 31 9
 EditAction 1443966259249 TestSudokuVerifier.java 5014 12 31 9
+UnitTestCaseAction 1443966261295 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966261296 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 FAIL
+CompilationAction 1443966330336 SudokuVerifier.java
+CompilationAction 1443966344531 SudokuVerifier.java
+UnitTestCaseAction 1443966362697 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443966362698 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 OK
+UnitTestCaseAction 1443966381233 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966381233 TestSudokuVerifier FAIL
+RefactoringAction 1443966461611 TestSudokuVerifier.java RENAME stringHasSubGridWithSameNumberButNotInRow=>String stringHasSubGridWithSameNumberButNotInRowOrColumn FIELD
+CompilationAction 1443966461883 TestSudokuVerifier.java
+CompilationAction 1443966470559 TestSudokuVerifier.java
+EditAction 1443966570483 TestSudokuVerifier.java 5098 12 31 9

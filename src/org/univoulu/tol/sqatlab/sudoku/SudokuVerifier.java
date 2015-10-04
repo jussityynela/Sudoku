@@ -129,14 +129,14 @@ public class SudokuVerifier {
 
 	public char[][] splitStringToCharMatrix(List<String> sudokuCandidateRows) {
 		char[][] sudokuCandidateMatrix = new char[9][9];
-		for(int y = 0; y <9; ++y){
-			for(int i = 0; i <9; ++i){
-				sudokuCandidateMatrix[i][y] = sudokuCandidateRows.get(y).charAt(i);
+		for(int x = 0; x <9; ++x){
+			for(int y = 0; y <9; ++y){
+				sudokuCandidateMatrix[x][y] = sudokuCandidateRows.get(x).charAt(y);
 			}				
 		}
-		for(int y = 0; y <9; ++y){
-			for(int i = 0; i <9; ++i){
-				System.out.print(sudokuCandidateMatrix[i][y]);
+		for(int x = 0; x <9; ++x){
+			for(int y = 0; y <9; ++y){
+				System.out.print(sudokuCandidateMatrix[x][y]);
 			}
 			System.out.println("");
 		}

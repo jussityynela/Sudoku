@@ -15,7 +15,7 @@ public class TestSudokuVerifier {
 	private static final String incorrectSudokuString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	private static final String stringHasRowsWithSameNumberButNotInColumn = "111111111222222222333333333444444444555555555666666666777777777888888888999999999";
 	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
-	private static final String stringHasSubGridWithSameNumberButNotInRow= "123456789234567891345678912456789123567891234678912345789123456891234567912345678";
+	private static final String stringHasSubGridWithSameNumberButNotInRowOrColumn= "123456789234567891345678912456789123567891234678912345789123456891234567912345678";
 	
 	private static final String stringHasSubGridWih123456789= "123123123456456456789789789123123123456456456789789789123123123456456456789789789";
 	
@@ -80,7 +80,7 @@ public class TestSudokuVerifier {
 	public void testDigitCanAppearOnlyOnceInSubGridNeg2() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
-		assertEquals(-2, sudokuVerifier.verify(stringHasSubGridWithSameNumberButNotInRow) );
+		assertEquals(-2, sudokuVerifier.verify(stringHasSubGridWithSameNumberButNotInRowOrColumn) );
 	}
 	
 	@Test
@@ -90,17 +90,23 @@ public class TestSudokuVerifier {
 		
 		List<String> expected = Arrays.asList("123234345", "345456567", "789891912", "456567678", "7898919123", "123234345", "789891912", "123234345", "123234345");
 		//Assert
-		assertEquals(expected, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
+		assertEquals(expected, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRowOrColumn, 9) );
 	}
 	
 	@Test
 	public void testSplitToCharacterMatrix() {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWithSameNumberButNotInRow, 9);
-		char[][] expected = {"123234345".toCharArray(),"456567678".toCharArray(),"789891912".toCharArray(),
-							  "456567678".toCharArray(),"789891912".toCharArray(),"123234345".toCharArray(),
-							  "789891912".toCharArray(),"123234345".toCharArray(),"456567678".toCharArray(),
+		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWithSameNumberButNotInRowOrColumn, 9);
+		char[][] expected = {"123456789".toCharArray(),
+							 "234567891".toCharArray(),
+							 "345678912".toCharArray(),
+							 "456789123".toCharArray(),
+							 "567891234".toCharArray(),
+							 "678912345".toCharArray(),
+							 "789123456".toCharArray(),
+							 "891234567".toCharArray(),
+							 "912345678".toCharArray(),
 							  };
 
 		//Assert
