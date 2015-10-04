@@ -102,7 +102,7 @@ public class TestSudokuVerifier {
 							  };
 
 		//Assert
-		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(stringHasSubGridWithSameNumberButNotInRow) );
+		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(sudokuCandidateRows) );
 	}
 }
 
