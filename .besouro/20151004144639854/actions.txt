@@ -148,3 +148,51 @@ CompilationAction 1443963679024 TestSudokuVerifier.java
 RefactoringAction 1443963796444 TestSudokuVerifier.java ADD void assertEquals() METHOD
 RefactoringAction 1443963803432 TestSudokuVerifier.java REMOVE assertEquals() METHOD
 EditAction 1443963842894 TestSudokuVerifier.java 3743 11 21 7
+CompilationAction 1443963843171 TestSudokuVerifier.java
+CompilationAction 1443963843171 TestSudokuVerifier.java
+CompilationAction 1443963843172 TestSudokuVerifier.java
+CompilationAction 1443963843172 TestSudokuVerifier.java
+RefactoringAction 1443964092438 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443964094418 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+RefactoringAction 1443964140855 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443964140865 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443964150420 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+RefactoringAction 1443964162531 TestSudokuVerifier.java ADD void assertEquals() METHOD
+CompilationAction 1443964166956 TestSudokuVerifier.java
+CompilationAction 1443964166958 TestSudokuVerifier.java
+CompilationAction 1443964166959 TestSudokuVerifier.java
+CompilationAction 1443964166960 TestSudokuVerifier.java
+CompilationAction 1443964167096 TestSudokuVerifier.java
+CompilationAction 1443964167096 TestSudokuVerifier.java
+CompilationAction 1443964167096 TestSudokuVerifier.java
+CompilationAction 1443964167096 TestSudokuVerifier.java
+CompilationAction 1443964167097 TestSudokuVerifier.java
+CompilationAction 1443964167097 TestSudokuVerifier.java
+CompilationAction 1443964167097 TestSudokuVerifier.java
+CompilationAction 1443964167098 TestSudokuVerifier.java
+RefactoringAction 1443964226025 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+RefactoringAction 1443964229221 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443964237802 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+CompilationAction 1443964241797 TestSudokuVerifier.java
+CompilationAction 1443964241799 TestSudokuVerifier.java
+CompilationAction 1443964241800 TestSudokuVerifier.java
+CompilationAction 1443964241802 TestSudokuVerifier.java
+CompilationAction 1443964241802 TestSudokuVerifier.java
+CompilationAction 1443964241803 TestSudokuVerifier.java
+CompilationAction 1443964241804 TestSudokuVerifier.java
+CompilationAction 1443964241805 TestSudokuVerifier.java
+CompilationAction 1443964241965 TestSudokuVerifier.java
+CompilationAction 1443964278590 TestSudokuVerifier.java
+CompilationAction 1443964278742 TestSudokuVerifier.java
+CompilationAction 1443964281593 TestSudokuVerifier.java
+CompilationAction 1443964281754 TestSudokuVerifier.java
+CompilationAction 1443964288324 TestSudokuVerifier.java
+CompilationAction 1443964288466 TestSudokuVerifier.java
+CompilationAction 1443964448022 TestSudokuVerifier.java
+CompilationAction 1443964448168 TestSudokuVerifier.java
+CompilationAction 1443964510388 TestSudokuVerifier.java
+CompilationAction 1443964510546 TestSudokuVerifier.java
+CompilationAction 1443964513650 TestSudokuVerifier.java
+UnitTestCaseAction 1443964517871 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443964517871 TestSudokuVerifier FAIL
+EditAction 1443964555885 TestSudokuVerifier.java 3933 11 24 8
