@@ -50,6 +50,7 @@ public class SudokuVerifier {
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, columncount);
 		List<String> sudokuCandidateNumbers = splitEqually(candidateSolution, 1);
 		List<String> sudokuCanditateGrids = new ArrayList<String>(columncount);
+		System.out.println("splitStringToSubGrids");
 		for(int k=0; k<9; ++k){
 			sudokuCanditateGrids.add("");
 		}
@@ -74,11 +75,27 @@ public class SudokuVerifier {
 		//and y: 0-2
 		int row_counter = 0;
 		//for(String s: sudokuCanditateGrids){
-			for(int i = 0; i <9; ++i){
+			for(int i = 0; i <6; ++i){
 				for(int y = 0; y <3; ++y){
-					sudokuCanditateGrids.set(row_counter, sudokuCanditateGrids.get(row_counter).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );									
+					sudokuCanditateGrids.set(row_counter, sudokuCanditateGrids.get(row_counter).concat( new StringBuilder().append(sudokuCandidateMatrix[i][y]).toString() ) );
+					//1 4 7
+					//2 5 8
+					//3 6 9
+					if( i!=0 && i%3==0)											
+					{
+						row_counter++;
+						System.out.println(i+"\n");
+					}//revert back index few rows, to get to the 
+					
+					//correct SubGridRowAddition
+					if(y!=0 && y%3==0)
+					{
+						System.out.println(i+" "+y+"\n");
+						row_counter-=2;
+						System.out.println(row_counter);
+					}
 				}
-				row_counter;
+				//row_counter++;
 			}
 		//row_counter++;
 		//}
