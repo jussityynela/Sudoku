@@ -123,6 +123,7 @@ public class TestSudokuVerifier {
 			}
 			System.out.println("");
 		}
+		
 		for(int y = 0; y <9; ++y){
 			for(int i = 0; i <9; ++i){
 				System.out.print(expected[i][y]);
