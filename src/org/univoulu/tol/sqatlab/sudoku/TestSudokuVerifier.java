@@ -39,9 +39,9 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test(expected=SudokuStringAlphaException.class)
-	public void testStringEmptyException() {
+	public void testStringNonNumericException() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		sudokuVerifier.verify("");
+		sudokuVerifier.verify("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 	}
 	
 	@Test

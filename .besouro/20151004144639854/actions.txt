@@ -544,3 +544,22 @@ UnitTestCaseAction 1443987189950 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443987189950 TestSudokuVerifier (Failed Tests first) OK
 CompilationAction 1443987213516 TestSudokuVerifier.java
 EditAction 1443987229775 TestSudokuVerifier.java 5440 13 33 9
+CompilationAction 1443987230113 TestSudokuVerifier.java
+CompilationAction 1443987230113 TestSudokuVerifier.java
+CompilationAction 1443987230113 TestSudokuVerifier.java
+RefactoringAction 1443987238783 TestSudokuVerifier.java RENAME testStringEmptyException()/2=>void testStringException() METHOD
+RefactoringAction 1443987238831 TestSudokuVerifier.java RENAME testStringException()=>void testStringNException() METHOD
+RefactoringAction 1443987240701 TestSudokuVerifier.java RENAME testStringNException()=>void testStringNonException() METHOD
+RefactoringAction 1443987242105 TestSudokuVerifier.java RENAME testStringNonException()=>void testStringNonNumberException() METHOD
+RefactoringAction 1443987244538 TestSudokuVerifier.java RENAME testStringNonNumberException()=>void testStringNonNumberiException() METHOD
+RefactoringAction 1443987245575 TestSudokuVerifier.java RENAME testStringNonNumberiException()=>void testStringNonNumbException() METHOD
+RefactoringAction 1443987246806 TestSudokuVerifier.java RENAME testStringNonNumbException()=>void testStringNonNumeException() METHOD
+CompilationAction 1443987247644 TestSudokuVerifier.java
+CompilationAction 1443987247768 TestSudokuVerifier.java
+CompilationAction 1443987247768 TestSudokuVerifier.java
+CompilationAction 1443987278588 TestSudokuVerifier.java
+CompilationAction 1443987278588 TestSudokuVerifier.java
+RefactoringAction 1443987307604 SudokuStringAlphaException.java ADD SudokuStringAlphaException.java CLASS
+FileOpenedAction 1443987307837 SudokuStringAlphaException.java 116 0 0 0
+RefactoringAction 1443987315461 SudokuStringAlphaException.java ADD long serialVersionUID FIELD
+EditAction 1443987316849 SudokuStringAlphaException.java 205 0 0 0
