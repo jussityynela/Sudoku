@@ -72,3 +72,16 @@ RefactoringAction 1443962081848 SudokuVerifier.java ADD p List FIELD
 RefactoringAction 1443962083401 SudokuVerifier.java REMOVE List FIELD
 CompilationAction 1443962083501 TestSudokuVerifier.java
 EditAction 1443962097919 TestSudokuVerifier.java 3167 10 20 7
+CompilationAction 1443962098238 TestSudokuVerifier.java
+CompilationAction 1443962098239 TestSudokuVerifier.java
+CompilationAction 1443962107484 TestSudokuVerifier.java
+CompilationAction 1443962107636 TestSudokuVerifier.java
+RefactoringAction 1443962123480 TestSudokuVerifier.java RENAME testDigitCanAppearOnlyOnceInSubGridNeg2()/2=>void testSplitF() METHOD
+RefactoringAction 1443962123544 TestSudokuVerifier.java RENAME testSplitF()=>void testSplit() METHOD
+RefactoringAction 1443962124647 TestSudokuVerifier.java RENAME testSplit()=>void testSplitGrid() METHOD
+RefactoringAction 1443962124699 TestSudokuVerifier.java RENAME testSplitGrid()=>void testSplitGridT() METHOD
+RefactoringAction 1443962125349 TestSudokuVerifier.java RENAME testSplitGridT()=>void testSplitGridTo() METHOD
+RefactoringAction 1443962125407 TestSudokuVerifier.java RENAME testSplitGridTo()=>void testSplitGridToS() METHOD
+RefactoringAction 1443962126330 TestSudokuVerifier.java RENAME testSplitGridToS()=>void testSplitGridToSub() METHOD
+CompilationAction 1443962127747 TestSudokuVerifier.java
+EditAction 1443962780368 TestSudokuVerifier.java 3225 10 18 6

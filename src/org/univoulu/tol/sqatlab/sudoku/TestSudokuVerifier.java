@@ -79,9 +79,11 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testDigitCanAppearOnlyOnceInSubGridNeg2() {
-		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
+	public void testSplitGridToSubGrids() {
+		//arrange
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		List<String> expected = new ArrayList<String> 
 		//Assert
-		assertEquals(-2, sudokuVerifier.verify(stringHasSubGridWithSameNumberButNotInRow, 9) );
+		assertEquals(-2, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
 	}
 }
