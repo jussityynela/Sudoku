@@ -361,3 +361,161 @@ RefactoringAction 1443966461611 TestSudokuVerifier.java RENAME stringHasSubGridW
 CompilationAction 1443966461883 TestSudokuVerifier.java
 CompilationAction 1443966470559 TestSudokuVerifier.java
 EditAction 1443966570483 TestSudokuVerifier.java 5098 12 31 9
+UnitTestCaseAction 1443966574374 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966574374 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443966702897 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966702898 TestSudokuVerifier (Failed Tests first) FAIL
+CompilationAction 1443966763197 SudokuVerifier.java
+CompilationAction 1443966779256 SudokuVerifier.java
+CompilationAction 1443966779293 SudokuVerifier.java
+CompilationAction 1443966784360 SudokuVerifier.java
+CompilationAction 1443966784404 SudokuVerifier.java
+CompilationAction 1443966788904 SudokuVerifier.java
+UnitTestCaseAction 1443966792917 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966792917 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443966811112 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443966811113 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967010481 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967010481 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+CompilationAction 1443967015689 SudokuVerifier.java
+CompilationAction 1443967027190 SudokuVerifier.java
+UnitTestCaseAction 1443967031821 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967031821 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967094488 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967094488 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967113058 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967113059 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967164609 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967164610 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967185316 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967185317 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967338750 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967338751 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+RefactoringAction 1443967540356 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1443967540357 SudokuVerifier.java ADD int i/2 FIELD
+RefactoringAction 1443967540358 SudokuVerifier.java ADD int i/3 FIELD
+RefactoringAction 1443967540359 SudokuVerifier.java ADD String s FIELD
+CompilationAction 1443967543128 SudokuVerifier.java
+CompilationAction 1443967543129 SudokuVerifier.java
+CompilationAction 1443967543129 SudokuVerifier.java
+CompilationAction 1443967543129 SudokuVerifier.java
+CompilationAction 1443967543130 SudokuVerifier.java
+CompilationAction 1443967543130 SudokuVerifier.java
+CompilationAction 1443967543130 SudokuVerifier.java
+CompilationAction 1443967543131 SudokuVerifier.java
+CompilationAction 1443967543131 SudokuVerifier.java
+CompilationAction 1443967578345 SudokuVerifier.java
+CompilationAction 1443967578346 SudokuVerifier.java
+CompilationAction 1443967578346 SudokuVerifier.java
+CompilationAction 1443967578347 SudokuVerifier.java
+CompilationAction 1443967578348 SudokuVerifier.java
+CompilationAction 1443967578348 SudokuVerifier.java
+CompilationAction 1443967578349 SudokuVerifier.java
+CompilationAction 1443967578350 SudokuVerifier.java
+CompilationAction 1443967578480 SudokuVerifier.java
+CompilationAction 1443967578481 SudokuVerifier.java
+CompilationAction 1443967578481 SudokuVerifier.java
+CompilationAction 1443967578481 SudokuVerifier.java
+CompilationAction 1443967578481 SudokuVerifier.java
+CompilationAction 1443967578482 SudokuVerifier.java
+CompilationAction 1443967578482 SudokuVerifier.java
+CompilationAction 1443967578482 SudokuVerifier.java
+CompilationAction 1443967585120 SudokuVerifier.java
+CompilationAction 1443967585121 SudokuVerifier.java
+CompilationAction 1443967585121 SudokuVerifier.java
+CompilationAction 1443967585122 SudokuVerifier.java
+CompilationAction 1443967585122 SudokuVerifier.java
+CompilationAction 1443967585123 SudokuVerifier.java
+CompilationAction 1443967585123 SudokuVerifier.java
+CompilationAction 1443967585124 SudokuVerifier.java
+CompilationAction 1443967585154 SudokuVerifier.java
+CompilationAction 1443967585155 SudokuVerifier.java
+CompilationAction 1443967585155 SudokuVerifier.java
+CompilationAction 1443967585155 SudokuVerifier.java
+CompilationAction 1443967585156 SudokuVerifier.java
+CompilationAction 1443967585156 SudokuVerifier.java
+CompilationAction 1443967585156 SudokuVerifier.java
+CompilationAction 1443967585156 SudokuVerifier.java
+CompilationAction 1443967585157 SudokuVerifier.java
+RefactoringAction 1443967596918 SudokuVerifier.java REMOVE i FIELD
+RefactoringAction 1443967596919 SudokuVerifier.java REMOVE i/2 FIELD
+RefactoringAction 1443967596920 SudokuVerifier.java REMOVE i/3 FIELD
+RefactoringAction 1443967596922 SudokuVerifier.java REMOVE s FIELD
+CompilationAction 1443967611758 SudokuVerifier.java
+CompilationAction 1443967611759 SudokuVerifier.java
+CompilationAction 1443967611759 SudokuVerifier.java
+CompilationAction 1443967611760 SudokuVerifier.java
+CompilationAction 1443967611760 SudokuVerifier.java
+CompilationAction 1443967611761 SudokuVerifier.java
+CompilationAction 1443967611761 SudokuVerifier.java
+CompilationAction 1443967611762 SudokuVerifier.java
+CompilationAction 1443967611762 SudokuVerifier.java
+UnitTestCaseAction 1443967613361 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967613362 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967687719 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967687719 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967716632 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967716633 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967726177 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967726177 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967830368 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967830368 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+CompilationAction 1443967938846 SudokuVerifier.java
+CompilationAction 1443967944048 SudokuVerifier.java
+UnitTestCaseAction 1443967945044 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967945045 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967966230 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967966230 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443967984658 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443967984659 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968090752 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968090752 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968157170 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968157171 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968200636 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968200637 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968334049 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968334049 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968356909 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968356910 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968386602 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968386603 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968469096 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968469096 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968690172 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968690172 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968805859 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968805860 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443968860381 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443968860381 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+UnitTestCaseAction 1443969104189 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443969104190 Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids OK
+UnitTestCaseAction 1443969144791 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443969144792 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids OK
+CompilationAction 1443969409539 SudokuVerifier.java
+CompilationAction 1443969409540 SudokuVerifier.java
+CompilationAction 1443969409541 SudokuVerifier.java
+CompilationAction 1443969409541 SudokuVerifier.java
+UnitTestCaseAction 1443969412874 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443969412875 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+CompilationAction 1443969415109 SudokuVerifier.java
+CompilationAction 1443969415109 SudokuVerifier.java
+CompilationAction 1443969415110 SudokuVerifier.java
+CompilationAction 1443969415110 SudokuVerifier.java
+CompilationAction 1443969415111 SudokuVerifier.java
+CompilationAction 1443969415111 SudokuVerifier.java
+CompilationAction 1443969417061 SudokuVerifier.java
+CompilationAction 1443969417061 SudokuVerifier.java
+CompilationAction 1443969417062 SudokuVerifier.java
+CompilationAction 1443969417062 SudokuVerifier.java
+UnitTestCaseAction 1443969418373 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443969418373 Rerun Rerun Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids OK
+UnitTestCaseAction 1443969431339 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443969431340 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443984806908 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443984806908 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443984887499 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443984887499 TestSudokuVerifier (Failed Tests first) FAIL
+UnitTestCaseAction 1443984891304 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443984891305 TestSudokuVerifier (Failed Tests first) FAIL
+EditAction 1443986473164 TestSudokuVerifier.java 5222 12 31 9
