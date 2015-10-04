@@ -112,15 +112,15 @@ public class TestSudokuVerifier {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
 		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWih123456789, 9);
-		char[][] expected = {"123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
-							 "123456789".toCharArray(),
+		char[][] expected = {"123123123".toCharArray(),
+							 "456456456".toCharArray(),
+							 "789789789".toCharArray(),
+							 "123123123".toCharArray(),
+							 "456456456".toCharArray(),
+							 "789789789".toCharArray(),
+							 "123123123".toCharArray(),
+							 "456456456".toCharArray(),
+							 "789789789".toCharArray(),
 							  };
 		
 		for(int x = 0; x <9; ++x){
