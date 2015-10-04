@@ -17,6 +17,8 @@ public class TestSudokuVerifier {
 	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
 	private static final String stringHasSubGridWithSameNumberButNotInRow= "123456789234567891345678912456789123567891234678912345789123456891234567912345678";
 	
+	private static final String stringHasSubGridWih123456789= "123123123456456456789789789123123123456456456789789789123123123456456456789789789";
+	
 	
 	@Test(expected=SudokuStringTooLongException.class)
 	public void testStringTooLongException() {
@@ -106,13 +108,13 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testSplitToCharacterMatrixAnotherVersion() {
+	public void testSplitToCharacterMatrixHas123456789() {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWithSameNumberButNotInRow, 9);
-		char[][] expected = {"123234345".toCharArray(),"456567678".toCharArray(),"789891912".toCharArray(),
-							  "456567678".toCharArray(),"789891912".toCharArray(),"123234345".toCharArray(),
-							  "789891912".toCharArray(),"123234345".toCharArray(),"456567678".toCharArray(),
+		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWih123456789, 9);
+		char[][] expected = {"123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
+							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
+							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
 							  };
 
 		//Assert
