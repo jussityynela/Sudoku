@@ -38,6 +38,12 @@ public class TestSudokuVerifier {
 		sudokuVerifier.verify("");
 	}
 	
+	@Test(expected=SudokuStringAlphaException.class)
+	public void testStringEmptyException() {
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		sudokuVerifier.verify("");
+	}
+	
 	@Test
 	public void testCorrectSudokuString() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
