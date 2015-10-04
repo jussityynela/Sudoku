@@ -104,5 +104,19 @@ public class TestSudokuVerifier {
 		//Assert
 		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(sudokuCandidateRows) );
 	}
+	
+	@Test
+	public void testSplitToCharacterMatrixAnotherVersion() {
+		//arrange
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWithSameNumberButNotInRow, 9);
+		char[][] expected = {"123234345".toCharArray(),"456567678".toCharArray(),"789891912".toCharArray(),
+							  "456567678".toCharArray(),"789891912".toCharArray(),"123234345".toCharArray(),
+							  "789891912".toCharArray(),"123234345".toCharArray(),"456567678".toCharArray(),
+							  };
+
+		//Assert
+		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(sudokuCandidateRows) );
+	}
 }
 
