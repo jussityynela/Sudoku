@@ -67,3 +67,8 @@ UnitTestSessionAction 1443961779132 Rerun org.univoulu.tol.sqatlab.sudoku.TestSu
 UnitTestCaseAction 1443961799286 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443961799286 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testDigitCanAppearOnlyOnceInSubGridNeg2 FAIL
 EditAction 1443962069772 TestSudokuVerifier.java 3164 10 20 7
+CompilationAction 1443962070166 TestSudokuVerifier.java
+RefactoringAction 1443962081848 SudokuVerifier.java ADD p List FIELD
+RefactoringAction 1443962083401 SudokuVerifier.java REMOVE List FIELD
+CompilationAction 1443962083501 TestSudokuVerifier.java
+EditAction 1443962097919 TestSudokuVerifier.java 3167 10 20 7

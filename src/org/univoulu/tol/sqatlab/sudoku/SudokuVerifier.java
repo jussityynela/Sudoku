@@ -46,7 +46,7 @@ public class SudokuVerifier {
 	}
 
 	
-	private List<String> splitStringToSubGrids(String candidateSolution, int columncount) {
+	public List<String> splitStringToSubGrids(String candidateSolution, int columncount) {
 		List<String> sudokuCandidateRows = splitEqually(candidateSolution, columncount);
 		List<String> sudokuCandidateNumbers = splitEqually(candidateSolution, 1);
 		List<String> sudokuCanditateGrids = new ArrayList<String>(columncount);
