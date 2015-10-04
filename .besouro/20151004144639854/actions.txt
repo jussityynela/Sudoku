@@ -346,3 +346,4 @@ UnitTestCaseAction 1443966133713 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443966133713 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 FAIL
 EditAction 1443966186148 TestSudokuVerifier.java 5214 12 33 9
 EditAction 1443966190956 TestSudokuVerifier.java 5014 12 31 9
+EditAction 1443966205141 TestSudokuVerifier.java 5014 12 31 9

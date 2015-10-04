@@ -123,9 +123,9 @@ public class TestSudokuVerifier {
 							 "123456789".toCharArray(),
 							  };
 		
-		for(int y = 0; y <9; ++y){
-			for(int i = 0; i <9; ++i){
-				System.out.print(expected[i][y]);
+		for(int x = 0; x <9; ++x){
+			for(int y = 0; y <9; ++y){
+				System.out.print(expected[x][y]);
 			}
 			System.out.println("");
 		}
