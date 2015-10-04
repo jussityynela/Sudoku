@@ -118,8 +118,8 @@ public class TestSudokuVerifier {
 							  };
 		//one row with for column
 		char[][] test = {{'1','2','3'} };		
-		for(int x = 0; x <3; ++x){
-			for(int y = 0; y<1; ++y){
+		for(int x = 0; x <1; ++x){
+			for(int y = 0; y<3; ++y){
 				System.out.print(test[x][y]);
 			}
 			System.out.println("");
