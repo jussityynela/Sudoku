@@ -333,3 +333,6 @@ CompilationAction 1443965887606 TestSudokuVerifier.java
 UnitTestCaseAction 1443965891541 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443965891542 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 FAIL
 EditAction 1443965909832 TestSudokuVerifier.java 5126 12 33 9
+UnitTestCaseAction 1443965912185 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443965912185 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 FAIL
+EditAction 1443966065629 TestSudokuVerifier.java 5156 12 33 9
