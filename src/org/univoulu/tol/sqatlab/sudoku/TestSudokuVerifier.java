@@ -117,7 +117,7 @@ public class TestSudokuVerifier {
 							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
 							  };
 		//one row with for column
-		char[][] test = {{'1','2','3'} };		
+		char[][] test = {"123".toCharArray() };		
 		for(int x = 0; x <1; ++x){
 			for(int y = 0; y<3; ++y){
 				System.out.print(test[x][y]);
