@@ -116,7 +116,12 @@ public class TestSudokuVerifier {
 							  "123123123".toCharArray(),"456456456".toCharArray(),"789789789".toCharArray(),
 							  "123123123".toCharArray(),"456456456".toCharArray(),"789789789".toCharArray(),
 							  };
-
+		for(int y = 0; y <9; ++y){
+			for(int i = 0; i <9; ++i){
+				System.out.print(expected[i][y]);
+			}
+			System.out.println("");
+		}
 		//Assert
 		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(sudokuCandidateRows) );
 	}
