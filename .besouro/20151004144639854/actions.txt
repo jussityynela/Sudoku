@@ -92,3 +92,12 @@ CompilationAction 1443962780704 TestSudokuVerifier.java
 CompilationAction 1443962903404 TestSudokuVerifier.java
 CompilationAction 1443962903404 TestSudokuVerifier.java
 EditAction 1443963138713 TestSudokuVerifier.java 3335 10 21 7
+CompilationAction 1443963139134 TestSudokuVerifier.java
+CompilationAction 1443963139135 TestSudokuVerifier.java
+RefactoringAction 1443963174164 TestSudokuVerifier.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1443963194618 TestSudokuVerifier.java ADD import List IMPORT
+RefactoringAction 1443963202502 TestSudokuVerifier.java REMOVE import List IMPORT
+RefactoringAction 1443963207618 TestSudokuVerifier.java ADD import java.util.List IMPORT
+CompilationAction 1443963209253 TestSudokuVerifier.java
+CompilationAction 1443963209254 TestSudokuVerifier.java
+EditAction 1443963216254 TestSudokuVerifier.java 3390 10 21 7
