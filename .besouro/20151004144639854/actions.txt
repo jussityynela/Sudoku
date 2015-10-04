@@ -136,3 +136,15 @@ CompilationAction 1443963644041 SudokuVerifier.java
 CompilationAction 1443963644041 SudokuVerifier.java
 CompilationAction 1443963651508 SudokuVerifier.java
 EditAction 1443963662341 TestSudokuVerifier.java 3792 11 24 8
+CompilationAction 1443963662753 TestSudokuVerifier.java
+RefactoringAction 1443963670901 TestSudokuVerifier.java RENAME testSplitGridToSubGrids()/2=>void testSplitTo() METHOD
+RefactoringAction 1443963673118 TestSudokuVerifier.java RENAME testSplitTo()=>void testSplitToChar() METHOD
+RefactoringAction 1443963673221 TestSudokuVerifier.java RENAME testSplitToChar()=>void testSplitToCharc() METHOD
+RefactoringAction 1443963674162 TestSudokuVerifier.java RENAME testSplitToCharc()=>void testSplitToCha() METHOD
+RefactoringAction 1443963674254 TestSudokuVerifier.java RENAME testSplitToCha()=>void testSplitToCh() METHOD
+RefactoringAction 1443963677094 TestSudokuVerifier.java RENAME testSplitToCh()=>void testSplitToCharacterMat() METHOD
+RefactoringAction 1443963678031 TestSudokuVerifier.java RENAME testSplitToCharacterMat()=>void testSplitToCharacterMatri() METHOD
+CompilationAction 1443963679024 TestSudokuVerifier.java
+RefactoringAction 1443963796444 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443963803432 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+EditAction 1443963842894 TestSudokuVerifier.java 3743 11 21 7
