@@ -82,7 +82,7 @@ public class TestSudokuVerifier {
 	public void testSplitGridToSubGrids() {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
-		List<String> expected = new ArrayList<String> 
+		List<String> expected = Arrays.asList("123234345", "345456567", "789891912", "456567678", "7898919123", "123234345", "789891912", "123234345", "456567678");
 		//Assert
 		assertEquals(-2, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
 	}

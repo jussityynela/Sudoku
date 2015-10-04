@@ -85,3 +85,10 @@ RefactoringAction 1443962125407 TestSudokuVerifier.java RENAME testSplitGridTo()
 RefactoringAction 1443962126330 TestSudokuVerifier.java RENAME testSplitGridToS()=>void testSplitGridToSub() METHOD
 CompilationAction 1443962127747 TestSudokuVerifier.java
 EditAction 1443962780368 TestSudokuVerifier.java 3225 10 18 6
+CompilationAction 1443962780702 TestSudokuVerifier.java
+CompilationAction 1443962780703 TestSudokuVerifier.java
+CompilationAction 1443962780703 TestSudokuVerifier.java
+CompilationAction 1443962780704 TestSudokuVerifier.java
+CompilationAction 1443962903404 TestSudokuVerifier.java
+CompilationAction 1443962903404 TestSudokuVerifier.java
+EditAction 1443963138713 TestSudokuVerifier.java 3335 10 21 7
