@@ -60,12 +60,7 @@ public class SudokuVerifier {
 		
 		//row at a time
 		//
-		for(int i = 0; i <9; ++i){
-			for(int y = 0; y <9; ++y){
-				
-				sudokuCandidateMatrix[i][y] = sudokuCandidateRows.get(i).charAt(y);
-			}				
-		}
+		sudokuCandidateMatrix = splitStringToCharMatrix(sudokuCandidateRows);
 		//0			 1         2
 		//0 1 2,    3 4 5,    6 7 8
 		//9 10 11, 12 13 14, 15,16,17
@@ -129,6 +124,17 @@ public class SudokuVerifier {
 		}
 		
 		return sudokuCanditateGrids;					
+	}
+
+
+	public char[][] splitStringToCharMatrix(List<String> sudokuCandidateRows) {
+		char[][] sudokuCandidateMatrix = new char[9][9];
+		for(int y = 0; y <9; ++y){
+			for(int i = 0; i <9; ++i){
+				sudokuCandidateMatrix[i][y] = sudokuCandidateRows.get(y).charAt(i);
+			}				
+		}
+		return sudokuCandidateMatrix;
 	}
 	
 	private List<String> splitStringToColumns(String candidateSolution, int columncount) {

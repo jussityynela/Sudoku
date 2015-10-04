@@ -101,3 +101,38 @@ RefactoringAction 1443963207618 TestSudokuVerifier.java ADD import java.util.Lis
 CompilationAction 1443963209253 TestSudokuVerifier.java
 CompilationAction 1443963209254 TestSudokuVerifier.java
 EditAction 1443963216254 TestSudokuVerifier.java 3390 10 21 7
+UnitTestCaseAction 1443963222531 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443963222532 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443963243978 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443963243979 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids FAIL
+RefactoringAction 1443963371775 SudokuVerifier.java ADD int row_counter FIELD
+RefactoringAction 1443963371776 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1443963371777 SudokuVerifier.java ADD int i/2 FIELD
+RefactoringAction 1443963371778 SudokuVerifier.java ADD int i/3 FIELD
+RefactoringAction 1443963371779 SudokuVerifier.java ADD int i/4 FIELD
+RefactoringAction 1443963371780 SudokuVerifier.java ADD String s FIELD
+RefactoringAction 1443963374672 SudokuVerifier.java REMOVE row_counter FIELD
+RefactoringAction 1443963374673 SudokuVerifier.java REMOVE i FIELD
+RefactoringAction 1443963374674 SudokuVerifier.java REMOVE i/2 FIELD
+RefactoringAction 1443963374675 SudokuVerifier.java REMOVE i/3 FIELD
+RefactoringAction 1443963374675 SudokuVerifier.java REMOVE i/4 FIELD
+RefactoringAction 1443963374676 SudokuVerifier.java REMOVE s FIELD
+UnitTestCaseAction 1443963392101 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443963392101 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids (Failed Tests first) FAIL
+UnitTestCaseAction 1443963444775 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443963444775 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitGridToSubGrids (Failed Tests first) FAIL
+RefactoringAction 1443963567557 SudokuVerifier.java ADD void splitStringToCharMatrix(List<String>, char METHOD
+RefactoringAction 1443963612708 SudokuVerifier.java RENAME splitStringToCharMatrix(List<String>, char=>void splitStringToCharMatrix(List<String>) METHOD
+CompilationAction 1443963612884 SudokuVerifier.java
+CompilationAction 1443963612885 SudokuVerifier.java
+CompilationAction 1443963619437 SudokuVerifier.java
+CompilationAction 1443963619492 SudokuVerifier.java
+CompilationAction 1443963623893 SudokuVerifier.java
+CompilationAction 1443963623933 SudokuVerifier.java
+CompilationAction 1443963623934 SudokuVerifier.java
+CompilationAction 1443963631975 SudokuVerifier.java
+CompilationAction 1443963632007 SudokuVerifier.java
+CompilationAction 1443963644041 SudokuVerifier.java
+CompilationAction 1443963644041 SudokuVerifier.java
+CompilationAction 1443963651508 SudokuVerifier.java
+EditAction 1443963662341 TestSudokuVerifier.java 3792 11 24 8
