@@ -100,7 +100,7 @@ public class TestSudokuVerifier {
 							  };
 
 		//Assert
-		assertArrayEquals(expected, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
+		assertArrayEquals(expected, splitStringToCharMatrix.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
 	}
 }
 
