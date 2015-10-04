@@ -292,3 +292,12 @@ RefactoringAction 1443965449668 TestSudokuVerifier.java RENAME testSplitToCharac
 RefactoringAction 1443965450393 TestSudokuVerifier.java RENAME testSplitToCharacterMatrixHas1234()=>void testSplitToCharacterMatrixHas123456() METHOD
 RefactoringAction 1443965452357 TestSudokuVerifier.java RENAME testSplitToCharacterMatrixHas123456()=>void testSplitToCharacterMatrixHas123456789() METHOD
 EditAction 1443965481915 TestSudokuVerifier.java 4801 12 29 9
+UnitTestCaseAction 1443965482609 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443965482609 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443965487534 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443965487535 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 FAIL
+UnitTestCaseAction 1443965523528 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443965523528 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 (Failed Tests first) FAIL
+UnitTestCaseAction 1443965545304 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443965545305 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testSplitToCharacterMatrixHas123456789 (Failed Tests first) FAIL
+EditAction 1443965631971 TestSudokuVerifier.java 4801 12 29 9
