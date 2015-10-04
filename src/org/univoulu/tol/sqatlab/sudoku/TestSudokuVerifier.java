@@ -116,6 +116,13 @@ public class TestSudokuVerifier {
 							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
 							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
 							  };
+		char[][] test = {"123".toString}
+		for(int y = 0; y <9; ++y){
+			for(int i = 0; i <9; ++i){
+				System.out.print(expected[i][y]);
+			}
+			System.out.println("");
+		}
 		for(int y = 0; y <9; ++y){
 			for(int i = 0; i <9; ++i){
 				System.out.print(expected[i][y]);
