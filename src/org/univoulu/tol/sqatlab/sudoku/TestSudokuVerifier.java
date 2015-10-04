@@ -85,6 +85,7 @@ public class TestSudokuVerifier {
 	public void testSplitGridToSubGrids() {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		
 		List<String> expected = Arrays.asList("123234345", "345456567", "789891912", "456567678", "7898919123", "123234345", "789891912", "123234345", "123234345");
 		//Assert
 		assertEquals(expected, sudokuVerifier.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
@@ -94,13 +95,14 @@ public class TestSudokuVerifier {
 	public void testSplitToCharacterMatrix() {
 		//arrange
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		List<String> sudokuCandidateRows = sudokuVerifier.splitEqually(stringHasSubGridWithSameNumberButNotInRow, 9);
 		char[][] expected = {"123234345".toCharArray(),"456567678".toCharArray(),"789891912".toCharArray(),
 							  "456567678".toCharArray(),"789891912".toCharArray(),"123234345".toCharArray(),
 							  "789891912".toCharArray(),"123234345".toCharArray(),"456567678".toCharArray(),
 							  };
 
 		//Assert
-		assertArrayEquals(expected, splitStringToCharMatrix.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
+		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix.splitStringToSubGrids(stringHasSubGridWithSameNumberButNotInRow, 9) );
 	}
 }
 

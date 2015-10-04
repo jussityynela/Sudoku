@@ -169,7 +169,7 @@ public class SudokuVerifier {
 		return sudokuCanditateColumns;					
 	}
 
-	private boolean hasDuplicatesInRow(List<String> sudokuCandidateRows, int[] numbers) {
+	public boolean hasDuplicatesInRow(List<String> sudokuCandidateRows, int[] numbers) {
 		boolean hasDuplicates = false;
 		for(String s : sudokuCandidateRows)
 		{
