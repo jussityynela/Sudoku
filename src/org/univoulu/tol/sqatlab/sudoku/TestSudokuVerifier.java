@@ -13,8 +13,8 @@ public class TestSudokuVerifier {
 	private static final String SudokuStringWithNegativeNumber = "417-36982563215894795872431682543716979158643234691275828964357157329168416487529";
 	
 	private static final String incorrectSudokuString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
-	private static final String stringHasRowsWithSameNumberButNotInColumn = "123123123456456456789789789321321321654654654987987987231231231564564564897897897";
-	private static final String stringHasColumnsWithSameNumberButNotInRow= "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
+	private static final String stringHasRowsWithSameNumberButNotInColumnOrSubGrid = "123123123456456456789789789321321321654654654987987987231231231564564564897897897";
+	private static final String stringHasColumnsWithSameNumberButNotInRowOrSubgrid= "147369258258258369369147147147369258258258369369147147147369258258258369369147147";
 	private static final String stringHasSubGridWithSameNumberButNotInRowOrColumn= "123456789234567891345678912456789123567891234678912345789123456891234567912345678";
 	
 	private static final String stringHasSubGridWih123456789= "123123123456456456789789789123123123456456456789789789123123123456456456789789789";
@@ -66,14 +66,14 @@ public class TestSudokuVerifier {
 	public void testDigitCanAppearOnlyOnceInRowNeg3() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
-		assertEquals(-3, sudokuVerifier.verify(stringHasRowsWithSameNumberButNotInColumn) );
+		assertEquals(-3, sudokuVerifier.verify(stringHasRowsWithSameNumberButNotInColumnOrSubGrid) );
 	}
 	
 	@Test
 	public void testDigitCanAppearOnlyOnceInColumnNeg2() {
 		SudokuVerifier sudokuVerifier = new SudokuVerifier();		
 		//Assert
-		assertEquals(-4, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRow) );
+		assertEquals(-4, sudokuVerifier.verify(stringHasColumnsWithSameNumberButNotInRowOrSubgrid) );
 	}
 	
 	@Test
