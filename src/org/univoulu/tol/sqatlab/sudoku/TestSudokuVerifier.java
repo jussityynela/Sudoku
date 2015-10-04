@@ -117,8 +117,8 @@ public class TestSudokuVerifier {
 							  "123456789".toCharArray(),"123456789".toCharArray(),"123456789".toCharArray(),
 							  };
 		char[][] test = {"123".toCharArray()} ;
-		for(int y = 0; y <9; ++y){
-			for(int i = 0; i <9; ++i){
+		for(int y = 0; y <1; ++y){
+			for(int i = 0; i <3; ++i){
 				System.out.print(test[i][y]);
 			}
 			System.out.println("");
