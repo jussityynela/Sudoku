@@ -122,6 +122,7 @@ public class TestSudokuVerifier {
 			}
 			System.out.println("");
 		}
+		System.out.println("");
 		//Assert
 		assertArrayEquals(expected, sudokuVerifier.splitStringToCharMatrix(sudokuCandidateRows) );
 	}
